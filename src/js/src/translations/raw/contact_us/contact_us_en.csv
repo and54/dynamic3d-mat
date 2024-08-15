@@ -1,0 +1,59 @@
+Section-Contact,Visibility,Headquarters,Phone Number,Email,,,,,
+,"LATAM South America and Central América , México , Caribean","Headquarters Office:
+CL 61 Sur N. 43 A – 290
+Sabaneta, Antioquia 055450
+Colombia
+
+Bogota Office:
+CL 18 N. 69 B – 35
+Bogotá, Colombia
+","Colombia Toll Free Customer Service:
+ 018000510755
+
+PBX:
++574 3788686
+
+Bogotá Office:
++571 6449876",sales@nuvantglobal.com,,,,,
+,USA & Canada,"2261 NW 66th Av. Building 702, Suite 221
+Miami, FL 33152 
+","Contract Division:  +1-336-909-8437
+Automotive Division:  +1-248-761-2097",northamerica@nuvantglobal.com,,,,,
+,"Europe, North Africa, Middle East, Russia, UK","
+Spain Office: 
+Osona, 2 (Edificio REGUS Mas Blau)
+08820 El Prat de Llobregat (Barcelona)
+
+Germany office:
+Bei der Lehmkuhle 3 / Halle B2
+21629 Neu Wulmstorf
+Germay
+","Spain : +34 93 192 14 15
+
+Germany: 
++49 (0) 6142 - 2104595
++49 (0) 6142 - 2104597
++49 (0) 6142 - 2104596
+","spain@nuvantglobal.com
+
+germany@nuvantglobal.com",,,,,
+,"Global / General (Asia, Australia , other countries)",(all addresses above),"(show all phone numbers above, with location)","(show all e-mails above, with location)",,,,,
+,,,,,,,,,
+Section-Contact Form,Input Name,Section Name,Image,Header,Subheader,Copy,Interactive Fields,CTA,Visibility
+,#1 - Your Name,Get In Touch,-,Contact Us,We’d love to hear from you. Please drop us a line and we’ll respond as soon as possible.,,Your Name,Submit,Y
+,#2 - Phone Number,Get In Touch,-,,,,Phone Number,Submit,Y
+,#3 - Your Email,Get In Touch,-,,,,Your Email,Submit,Y
+,#4 - Subject,Get In Touch,-,,,,Subject,Submit,Y
+,#5 - Your message,Get In Touch,-,,,,Your message,Submit,Y
+,,,,,,,,,Y
+,,,,,,,,,
+Section-Footer,Headquarters,Contact,Links,"""Social Media"" channels",,,,,
+,"Headquarters
+CL 61 Sur N. 43 A – 290
+Sabaneta, Antioquia 055450
+Colombia",,Home,Facebook,,,,,
+,,,About,Twitter,,,,,
+,,,Collections,Instagram,,,,,
+,,,Resources,Linkedin,,,,,
+,,,Terms & Conditions ,YouTube,,,,,
+,,,Privacy Policy,social@nuvantglobal.com,,,,,

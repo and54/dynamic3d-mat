@@ -1,0 +1,172 @@
+{
+    "en": {
+        "LATAM": {
+            "offices": [
+                {
+                    "name": "Headquarters Office",
+                    "address": [
+                        "CL 61 Sur N. 43 A – 290",
+                        "Sabaneta, Antioquia 055450",
+                        "Colombia"
+                    ]
+                },
+                {
+                    "name": "Bogota Office",
+                    "address": [
+                        "CL 18 N. 69 B – 35",
+                        "Bogotá, Colombia"
+                    ]
+                }
+            ],
+            "numbers": {
+                "Headquarters": [
+                    "+574 3788686 Ext.15470"
+                ],
+                "Bogotá Office": [
+                    "+571 6449876 Ext.19470"
+                ]
+            },
+            "emails": [
+                "latam@nuvantglobal.com"
+            ]
+        },
+        "USA & Canada": {
+            "offices": [
+                {
+                    "name": "US & Canada",
+                    "address": [
+                        "2261 NW 66th Av. Building 702, Suite 221",
+                        "Miami, FL, 33152"
+                    ]
+                }
+            ],
+            "numbers": {
+                "Contract Division": ["+1-336-909-8437"],
+                "Automotive Division": ["+1-248-761-2097"]
+            },
+            "emails": [
+                "northamerica@nuvantglobal.com"
+            ]
+        },
+        "Europe": {
+            "offices": [
+                {
+                    "name": "Spain Office",
+                    "address": [
+                        "Osona, 2 (Edificio REGUS Mas Blau)",
+                        "08820 El Prat de Llobregat (Barcelona)"
+                    ]
+                },
+                {
+                    "name": "Germany office",
+                    "address": [
+                        "Neuer Wall 10",
+                        "20354 Hamburg",
+                        "Germany"
+                    ]
+                }
+            ],
+            "numbers": {
+                "Spain": [
+                    "+34 93 192 14 15"
+                ],
+                "Germany": [
+                    "+49 (0) 6142 - 2104595",
+                    " +49 (0) 6142 - 2104597",
+                    " +49 (0) 6142 - 2104596"
+                ]
+            },
+            "emails": [
+                "spain@nuvantglobal.com",
+                "germany@nuvantglobal.com"
+            ]
+        }
+    },
+
+    "es": {
+        "LATAM": {
+            "offices": [
+                {
+                    "name": "Oficina de la Sede",
+                    "address": [
+                        "CL 61 Sur N. 43 A – 290",
+                        "Sabaneta, Antioquia 055450",
+                        "Colombia"
+                    ]
+                },
+                {
+                    "name": "Oficina de Bogotá",
+                    "address": [
+                        "CL 18 N. 69 B – 35",
+                        "Bogotá, Colombia"
+                    ]
+                }
+            ],
+            "numbers": {
+                "Colombia Toll Free Customer Service": [
+                    "018000510755"
+                ],
+                "PBX": [
+                    "+574 3788686"
+                ],
+                "Bogotá": [
+                    "+571 6449876"
+                ]
+            },
+            "emails": [
+                "sales@nuvantglobal.com"
+            ]
+        },
+        "USA & Canada": {
+            "offices": [
+                {
+                    "name": "USA de la Sede",
+                    "address": [
+                        "2261 NW 66th Av. Building 702, Suite 221",
+                        "Miami, FL, 33152"
+                    ]
+                }
+            ],
+            "numbers": {
+                "Contract Division": ["+1-336-909-8437"],
+                "Automotive Division": ["+1-248-761-2097"]
+            },
+            "emails": [
+                "northamerica@nuvantglobal.com"
+            ]
+        },
+        "Europe": {
+            "offices": [
+                {
+                    "name": "Spain Office",
+                    "address": [
+                        "Osona, 2 (Edificio REGUS Mas Blau)",
+                        "08820 El Prat de Llobregat (Barcelona)"
+                    ]
+                },
+                {
+                    "name": "Germany office",
+                    "address": [
+                        "Bei der Lehmkuhle 3 / Halle B2",
+                        "21629 Neu Wulmstorf",
+                        "Germany"
+                    ]
+                }
+            ],
+            "numbers": {
+                "Spain": [
+                    "+34 93 192 14 15"
+                ],
+                "Germany": [
+                    "+49 (0) 6142 - 2104595",
+                    "+49 (0) 6142 - 2104597",
+                    "+49 (0) 6142 - 2104596"
+                ]
+            },
+            "emails": [
+                "spain@nuvantglobal.com",
+                "germany@nuvantglobal.com"
+            ]
+        }
+    }
+}

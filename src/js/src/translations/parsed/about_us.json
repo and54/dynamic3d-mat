@@ -1,0 +1,414 @@
+{
+    "en": {
+        "about_us_section_name": {
+            "text": "ABOUT US",
+            "visibility": ""
+        },
+        "about_us_image": {
+            "text": "Image #1 company logo and company picture",
+            "visibility": ""
+        },
+        "about_us_header": {
+            "text": "A global company dedicated to the design and manufacturing of coated textiles.",
+            "visibility": ""
+        },
+        "about_us_subheader": {
+            "text": "Your reliable partner dedicated to the highest quality of material and service.\n",
+            "visibility": ""
+        },
+        "about_us_copy_one": {
+            "text": "Nuvant serves different markets worldwide and is constantly striving to develop new products and solutions. Our products are powerful and can be used for a wide range of applications, meeting the requirements of the respective markets.",
+            "visibility": ""
+        },
+        "about_us_copy_two": {
+            "text": "Our greatest strength is the relationship with our clients together with a team of highly trained people working towards excellence and the highest quality standards.",
+            "visibility": ""
+        },
+        "history_section_name": {
+            "text": "HISTORY",
+            "visibility": ""
+        },
+        "history_image": {
+            "text": "Image #1",
+            "visibility": ""
+        },
+        "history_header": {
+            "text": "",
+            "visibility": ""
+        },
+        "history_subheader": {
+            "text": "",
+            "visibility": ""
+        },
+        "history_copy_mad_alt_": {
+            "text": "Our history\n\nSince its launch in 1966, Nuvant has evolved from a small business into a trusted global supplier bolstered by a robust network of facilities and distributors strategically located worldwide.\n\n1966\nThe company launches as a commercial printer.\n\n1968 \nVinyl coated fabrics become a part of our product catalog.\n\n1987 \nNew cast coating technology is implemented.\n\n1992\nIndustrial and commercial collections go international.\n\n2002\nAutomotive aftermarket and contract collections introduced in North America through partner distributors.\n\n2004\nSubstantial growth experienced in the U.S. and Spanish markets.\n\n2005 \nStarted to ship Automotive OEM materials to North America.\n\n2009 \nState-of-the-art plastisol preparation facility inaugurated.\n\n2015\nNew Europe division offices open their doors in Germany.\n\n2018\nSpain's office opened to strengthen European presence.\n\n2020\nOur brand is refreshed to accommodate our new scope and align all locations under a single name. Millennium International, Quinetica, Millennium Products of America, Riegel Productos de Mexico, and Plastiquimica are now Nuvant. ",
+            "visibility": ""
+        },
+        "statistics_section_name": {
+            "text": "-",
+            "visibility": ""
+        },
+        "statistics_business_years": {
+            "text": "54",
+            "visibility": ""
+        },
+        "statistics_clients": {
+            "text": "400+",
+            "visibility": ""
+        },
+        "statistics_continents": {
+            "text": "3",
+            "visibility": ""
+        },
+        "statistics_employees": {
+            "text": "400+",
+            "visibility": ""
+        },
+        "sustainability_section_name": {
+            "text": "SUSTAINABILITY",
+            "visibility": ""
+        },
+        "sustainability_image": {
+            "text": "Image #1",
+            "visibility": ""
+        },
+        "sustainability_header": {
+            "text": "Our commitment to sustainability",
+            "visibility": ""
+        },
+        "sustainability_subheader": {
+            "text": "",
+            "visibility": ""
+        },
+        "sustainability_copy": {
+            "text": "Nuvant is committed to designing and manufacturing innovative coated textiles while working in harmony with the environment. For this reason, we have invested in state-of-the-art emission control technologies that allow us to operate well below the required emission limits. \n\nOur multidisciplinary team, which includes third-party advisors well-versed in regulatory requirements and best practices for reducing energy and water usage, is keen on enforcing innovative strategies to recycle and reuse as many resources as possible throughout our production pipeline. \n\nThroughout the years, our product portfolio has evolved from solvent-based formulations to more sustainable water-based formulations. As of August of 2020, Nuvant offers phthalate-free, biocide-free, and FR-free coated fabric. Our manufacturing plant is also now DEHP-free. ",
+            "visibility": ""
+        },
+        "footer_headquarters": {
+            "text": "Headquarters\nCL 61 Sur N. 43 A – 290\nSabaneta, Antioquia 055450\nColombia",
+            "visibility": ""
+        },
+        "footer_contact": {
+            "text": "(create link to contact section)",
+            "visibility": ""
+        },
+        "footer_links": {
+            "text": "Home",
+            "visibility": ""
+        },
+        "footer_social_media_channels": {
+            "text": "Facebook",
+            "visibility": ""
+        },
+        "footer_copy": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_14": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_14": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_14": {
+            "text": "About",
+            "visibility": ""
+        },
+        "footer_social_media_channels_14": {
+            "text": "Twitter",
+            "visibility": ""
+        },
+        "footer_copy_14": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_15": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_15": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_15": {
+            "text": "Collections",
+            "visibility": ""
+        },
+        "footer_social_media_channels_15": {
+            "text": "Instagram",
+            "visibility": ""
+        },
+        "footer_copy_15": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_16": {
+            "text": "Resources",
+            "visibility": ""
+        },
+        "footer_social_media_channels_16": {
+            "text": "Linkedin",
+            "visibility": ""
+        },
+        "footer_copy_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_17": {
+            "text": "Terms & Conditions ",
+            "visibility": ""
+        },
+        "footer_social_media_channels_17": {
+            "text": "YouTube",
+            "visibility": ""
+        },
+        "footer_copy_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_18": {
+            "text": "Privacy Policy",
+            "visibility": ""
+        },
+        "footer_social_media_channels_18": {
+            "text": "social@nuvantglobal.com",
+            "visibility": ""
+        },
+        "footer_copy_18": {
+            "text": "",
+            "visibility": ""
+        }
+    },
+    "es": {
+        "about_us_section_name": {
+            "text": "\nQUIÉNES SOMOS",
+            "visibility": ""
+        },
+        "about_us_image": {
+            "text": "Image #1 company logo and company picture",
+            "visibility": ""
+        },
+        "about_us_header": {
+            "text": "Una empresa global dedicada al diseño y la fabricación de textiles recubiertos.",
+            "visibility": ""
+        },
+        "about_us_subheader": {
+            "text": "Su socio confiable, enfocado en ofrecer la más alta calidad y servicio.",
+            "visibility": ""
+        },
+        "about_us_copy_one": {
+            "text": "Nuvant atiende a los diferentes mercados alrededor del mundo y se esfuerza constantemente por desarrollar nuevos productos y soluciones. Nuestros productos son de excelente calidad y durabilidad y pueden ser usados en una amplia gama de aplicaciones, cumpliendo con los requisitos de los respectivos mercados.\nNuestra mayor fortaleza es la relación con nuestros clientes, junto a un equipo de personas altamente capacitadas que trabajan enfocados en la excelencia y los más altos estándares de calidad. ",
+            "visibility": ""
+        },
+        "about_us_copy_two": {
+            "text": "Nuvant atiende a los diferentes mercados alrededor del mundo y se esfuerza constantemente por desarrollar nuevos productos y soluciones. Nuestros productos son de excelente calidad y durabilidad y pueden ser usados en una amplia gama de aplicaciones, cumpliendo con los requisitos de los respectivos mercados.\nNuestra mayor fortaleza es la relación con nuestros clientes, junto a un equipo de personas altamente capacitadas que trabajan enfocados en la excelencia y los más altos estándares de calidad. ",
+            "visibility": ""
+        },
+        "history_section_name": {
+            "text": "\nHISTORIA",
+            "visibility": ""
+        },
+        "history_image": {
+            "text": "Image #1",
+            "visibility": ""
+        },
+        "history_header": {
+            "text": "",
+            "visibility": ""
+        },
+        "history_subheader": {
+            "text": "",
+            "visibility": ""
+        },
+        "history_copy_mad_alt_": {
+            "text": "Nuestra historia\n\nDesde su fundación en 1966, Nuvant ha evolucionado constantemente hasta convertirse en un proveedor global de confianza, respaldado por una sólida red de distribuidores estratégicamente ubicados en tres continentes. \n\n1966\nLa empresa se crea bajo el nombre Plastiquímica, con el objetivo de servir al mercado de impresión comercial.\n\n1968\nSe incorporan textiles recubiertos de vinilo al catálogo de productos.\n\n1987\nSe implementa una nueva tecnología de recubrimiento.\n\n1992\nLa empresa comienza exportaciones y se internacionalizan las colecciones industriales y comerciales. Las colecciones industriales y comerciales se internacionalizan.\n\n2002\nSe introducen colecciones de tapicería automotriz de reposición y tapicería contract en Estados Unidos a través de distribuidores asociados.\n\n2004\nLa empresa crece substancialmente en los mercados de Estados Unidos y España\n\n2005 \nComienzan exportaciones de tapicería automotriz OEM hacia Norteamérica.\n\n\n2009 \nSe inaugura la planta de preparación de plastisoles de última tecnología.\n\n2015\nSe crea la división Europea, con oficinas en Alemania.\n\n2018\nSe inaugura la oficina de España para fortalecer la presencia en Europa.\n\n2020\nLa marca principal Plastiquimica es renovada con el fin de ajustarse a un nuevo enfoque estratégico y alinear todas las marcas de distribución internacional bajo un solo nombre.  Millennium Products of America en Estados Unidos, Quinética Ibérica en España, Millennium International en Alemania y Riegel Products de México, empiezan a ser reconocidas bajo el nombre: Nuvant.",
+            "visibility": ""
+        },
+        "statistics_section_name": {
+            "text": "-",
+            "visibility": ""
+        },
+        "statistics_business_years": {
+            "text": "54",
+            "visibility": ""
+        },
+        "statistics_clients": {
+            "text": "400+",
+            "visibility": ""
+        },
+        "statistics_continents": {
+            "text": "3",
+            "visibility": ""
+        },
+        "statistics_employees": {
+            "text": "400+",
+            "visibility": ""
+        },
+        "sustainability_section_name": {
+            "text": "\nSOSTENIBILIDAD",
+            "visibility": ""
+        },
+        "sustainability_image": {
+            "text": "Image #1",
+            "visibility": ""
+        },
+        "sustainability_header": {
+            "text": "\nNuestro compromiso con la sostenibilidad",
+            "visibility": ""
+        },
+        "sustainability_subheader": {
+            "text": "",
+            "visibility": ""
+        },
+        "sustainability_copy": {
+            "text": "Nuvant está comprometida con el diseño y fabricación de textiles recubiertos innovadores, al mismo tiempo que trabaja en armonía con el medio ambiente. Por esta razón, hemos invertido en tecnologías de control de emisiones de última generación, lo cual nos permite operar muy por debajo de los límites de emisión requeridos. \nNuestro equipo multidisciplinario, que incluye consultores externos expertos en temas regulatorios y mejores prácticas para reducir el uso de energía y agua, está enfocado en la implementación de estrategias innovadoras para reciclar y reusar la mayor cantidad de recursos posible a través del proceso productivo. \nA lo largo de los años, nuestra oferta de productos ha evolucionado desde el uso de formulaciones basadas en solventes a unas más sostenibles basadas en agua. Desde agosto del 2020, Nuvant ofrece dentro de su portafolio textiles recubiertos libres de ftalato y de biocidas, características retardadores al fuego. Nuestra planta de manufactura es libre de DEHP.",
+            "visibility": ""
+        },
+        "footer_headquarters": {
+            "text": "Oficina principal\nCL 61 Sur N. 43 A – 290\nSabaneta, Antioquia 055450\nColombia\nOficinas centrales",
+            "visibility": ""
+        },
+        "footer_contact": {
+            "text": "(create link to contact section)",
+            "visibility": ""
+        },
+        "footer_link": {
+            "text": "\nInicio",
+            "visibility": ""
+        },
+        "footer_social_media_channels": {
+            "text": "Facebook",
+            "visibility": ""
+        },
+        "footer_copy": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_14": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_14": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_link_14": {
+            "text": "\nQuiénes Somos",
+            "visibility": ""
+        },
+        "footer_social_media_channels_14": {
+            "text": "Twitter",
+            "visibility": ""
+        },
+        "footer_copy_14": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_15": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_15": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_link_15": {
+            "text": "\nColecciones",
+            "visibility": ""
+        },
+        "footer_social_media_channels_15": {
+            "text": "Instagram",
+            "visibility": ""
+        },
+        "footer_copy_15": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_link_16": {
+            "text": "\nRecursos",
+            "visibility": ""
+        },
+        "footer_social_media_channels_16": {
+            "text": "Linkedin",
+            "visibility": ""
+        },
+        "footer_copy_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_link_17": {
+            "text": "\nPolítica de Tratamiento de Datos",
+            "visibility": ""
+        },
+        "footer_social_media_channels_17": {
+            "text": "YouTube",
+            "visibility": ""
+        },
+        "footer_copy_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_link_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_social_media_channels_18": {
+            "text": "social@nuvantglobal.com",
+            "visibility": ""
+        },
+        "footer_copy_18": {
+            "text": "",
+            "visibility": ""
+        }
+    }
+}

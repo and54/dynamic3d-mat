@@ -1,0 +1,3229 @@
+{
+  "id": "footwear",
+  "nameEN": "Footwear",
+  "nameES": "Calzado",
+  "nameGE": "Schuhwaren",
+  "icon": "ico_footwear",
+  "order": 5,
+  "sections": [
+    {
+      "id": "sport_footwear",
+      "nameEN": "Sport Footwear",
+      "nameES": "Calzado Deportivo",
+      "nameGE": "Sportschuhe",
+      "order": 1
+    },
+    {
+      "id": "casual_footwear",
+      "nameEN": "Casual Footwear",
+      "nameES": "Calzado Casual",
+      "nameGE": "Freizeitschuhe",
+      "order": 2
+    }
+  ],
+  "crossProps": {
+    "casual_footwear": {
+      "camprops": {
+        "zoom": 10
+      },
+      "postLoad": [
+        {
+          "name": "static_mat",
+          "map": "images/footwear/casual_footwear/model/static_mat_map.jpg",
+          "normalMap": "images/footwear/casual_footwear/model/static_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/model/static_mat_roughnessmap.jpg"
+        },
+        {
+          "name": "stitch_mat",
+          "map": "images/footwear/casual_footwear/model/stitch_mat_map.jpg",
+          "normalMap": "images/footwear/casual_footwear/model/stitch_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/model/stitch_mat_roughnessmap.jpg",
+          "alphaMap": "images/footwear/casual_footwear/model/stitch_mat_alphamap.jpg",
+          "matProps": {
+            "alphaTest": 0.05,
+            "transparent": true
+          },
+          "mapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "normalMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "roughnessMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "alphaMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          }
+        },
+        {
+          "name": "floor_mat",
+          "alphaMap": "images/footwear/casual_footwear/model/floor_mat_alphamap.jpg",
+          "matProps": {
+            "alphaTest": 0.01,
+            "color": "#000000",
+            "transparent": true,
+            "opacity": 0.5
+          }
+        }
+      ]
+    },
+    "sport_footwear": {
+      "camprops": {
+        "zoom": 9
+      },
+      "postLoad": [
+        {
+          "name": "static_mat",
+          "map": "images/footwear/sport_footwear/model/static_mat_map.jpg",
+          "normalMap": "images/footwear/sport_footwear/model/static_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/model/static_mat_roughnessmap.jpg"
+        },
+        {
+          "name": "stitch_mat",
+          "map": "images/footwear/sport_footwear/model/stitch_mat_map.jpg",
+          "normalMap": "images/footwear/sport_footwear/model/stitch_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/model/stitch_mat_roughnessmap.jpg",
+          "alphaMap": "images/footwear/sport_footwear/model/stitch_mat_alphamap.jpg",
+          "matProps": {
+            "alphaTest": 0.05,
+            "transparent": true
+          },
+          "mapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "normalMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "roughnessMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "alphaMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          }
+        },
+        {
+          "name": "floor_mat",
+          "alphaMap": "images/footwear/sport_footwear/model/floor_mat_alphamap.jpg",
+          "matProps": {
+            "alphaTest": 0.01,
+            "color": "#000000",
+            "transparent": true,
+            "opacity": 0.5
+          }
+        }
+      ]
+    },
+    "all": {
+      "camprops": {
+        "orbitProps": {
+          "maxPolarAngle": 1.55,
+          "minPolarAngle": 0.5,
+          "maxDistance":400, 
+          "minDistance":50
+        }
+      },
+      "visorprops": {
+        "position": [
+          0,
+          -4,
+          0
+        ]
+      }
+    }
+  },
+  "data": [
+    {
+      "id": "prisma",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Prisma",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "PRISMA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.12mm<br>-Width: 1.40 <br>-Weight: 853 +/- 45 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "PRISMA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión.<br><br>-Calibre: 1.65 +/- 0.12 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 45 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "PRISMA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,12mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 45 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/prisma/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/prisma/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "miel",
+          "name": "Miel",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/prisma/miel_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "caramelo",
+          "name": "Caramelo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/prisma/caramelo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/prisma/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe",
+          "name": "Café",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/prisma/cafe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/prisma/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/prisma/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "master",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Master",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "MASTER is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.80 +/- 0.12mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 45 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "MASTER, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión.<br><br>-Calibre: 1.80 +/- 0.12 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 45 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "MASTER ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,80 +/- 0,12mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 45 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/master/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/master/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "miel",
+          "name": "Miel",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/master/miel_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "caramelo",
+          "name": "Caramelo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/master/caramelo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/master/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe",
+          "name": "Café",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/master/cafe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/master/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/master/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ankara",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Ankara",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "ANKARA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 2.00 +/- 0.13mm <br>-Width: 1.40 m<br>-Weight: 927 +/- 35 g /m² <br>-Standard Roll Length: 30m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "ANKARA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 2.00 +/- 0.13 mm<br>-Ancho: 1.40 m<br>-Peso: 927 +/- 35 g / m²<br>-Longitud del rollo: 30 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "ANKARA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 2,00 +/- 0,13mm<br> - Breite: 1,40 m<br> - Gewicht: 927 +/- 35 g / m²<br> - Standardrollenlänge: 30m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/ankara/nuvant_mat_normalmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "arena",
+          "name": "Arena",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/arena_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "almendra",
+          "name": "Almendra",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/almendra_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "capuccino",
+          "name": "Capuccino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/capuccino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "marron",
+          "name": "Marron",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/marron_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro",
+          "name": "Oro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/oro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "carbon",
+          "name": "Carbon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/carbon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/ankara/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rustik",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Rustik",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "RUSTIK is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.85 +/- 0.12mm<br>-Width: 1.40 <br>-Weight: 880 +/- 40 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "RUSTIK, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.85 +/- 0.12 mm<br>-Ancho: 1.40<br>-Peso: 880 +/- 40 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "RUSTIK ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,85 +/- 0,12mm<br> - Breite: 1,40 <br> - Gewicht: 880 +/- 40 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/rustik/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/rustik/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hielo",
+          "name": "Hielo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/hielo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris",
+          "name": "Gris",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/gris_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "arena",
+          "name": "Arena",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/arena_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "plomo",
+          "name": "Plomo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/plomo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro",
+          "name": "Oro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/oro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hoja_seca",
+          "name": "Hoja Seca",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/hoja_seca_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_medio",
+          "name": "Azul Medio",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/rustik/azul_medio_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jungla",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Jungla",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "JUNGLA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 843 +/- 44 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "JUNGLA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 843 +/- 44 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "JUNGLA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 843 +/- 44 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/jungla/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/jungla/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "taupe",
+          "name": "Taupe",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/taupe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris",
+          "name": "Gris",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/gris_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro",
+          "name": "Oro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/oro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_militar",
+          "name": "Verde Militar",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/verde_militar_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vinotinto",
+          "name": "VinoTinto",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/vinotinto_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "petroleo",
+          "name": "Petroleo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/petroleo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cardenal",
+          "name": "Cardenal",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/cardenal_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/jungla/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vienna",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Vienna",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "VIENNA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40 m<br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "VIENNA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual, como flexión y abrasión. <br><br> -Calibre: 1.65 +/- 0.10 mm<br> -Ancho: 1.40<br> -Peso: 853 +/- 54 g / m²<br> -Longitud del rollo: 40 m<br><br> Aplicaciones:<br> -Calzado<br> -Marroquinería",
+      "descriptionGE": "VIENNA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> -Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/vienna/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/vienna/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/vienna/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "melaza",
+          "name": "Melaza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/vienna/melaza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ron",
+          "name": "Ron",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/vienna/ron_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "caoba",
+          "name": "Caoba",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/vienna/caoba_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe_colonial",
+          "name": "Café Colonial",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/vienna/cafe_colonial_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/vienna/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infinity",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Infinity",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "INFINITY is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "INFINITY, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual, como flexión y abrasión.<br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "INFINITY ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/infinity/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/infinity/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "amarillo",
+          "name": "Amarillo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/infinity/amarillo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rostado",
+          "name": "Rostado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/infinity/rostado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/infinity/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe",
+          "name": "Café",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/infinity/cafe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/infinity/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capellada_ante",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Capellada Ante",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "CAPELLADA ANTE is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.77 +/- 0.13 mm<br>-Width: 1.40 <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CAPELLADA ANTE, producto diseñado para la industria del calzado con un acabado especial que le da un efecto gamuzado. Cumple con las especificaciones requeridas por el segmento en el sector del calzado casual, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.77 +/- 0.13 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CAPELLADA ANTE ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,77 +/- 0,13 mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/capellada_ante/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/capellada_ante/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "miel_bic",
+          "name": "Miel Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/miel_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "arena_bic",
+          "name": "Arena Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/arena_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hielo_bic",
+          "name": "Hielo Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/hielo_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabacco_bic",
+          "name": "Tabacco Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/tabacco_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_bic",
+          "name": "Oro Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/oro_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "chocolate_bic",
+          "name": "Chocolate Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/chocolate_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ceniz_bic",
+          "name": "Ceniz Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/ceniz_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "petroleo_bic",
+          "name": "Petroleo Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/petroleo_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "plomo_bic",
+          "name": "Plomo Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante/plomo_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capellada_ante_tech",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Capellada Ante Tech",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "CAPELLADA ANTE TECH is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties.<br><br>-Thickness: 1.82 +/- 0.13mm<br>-Width: 1.40 <br>-Weight: 878 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CAPELLADA ANTE TECH, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual, como flexión y abrasión.<br><br>-Calibre: 1.82 +/- 0.13 mm<br>-Ancho: 1.40<br>-Peso: 878 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CAPELLADA ANTE TECH ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt.<br> <br> - Dicke: 1,82 +/- 0,13mm<br> - Breite: 1,40 <br> - Gewicht: 878 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/capellada_ante_tech/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/capellada_ante_tech/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "arena",
+          "name": "Arena",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante_tech/arena_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_bic",
+          "name": "Oro Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante_tech/oro_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_bar_bic",
+          "name": "Verde Bar Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/capellada_ante_tech/verde_bar_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport_grasso",
+      "section_id": "casual_footwear",
+      "type": "viewer-3d",
+      "name": "Sport Grasso",
+      "model": "images/footwear/casual_footwear/model/model.fbx",
+      "descriptionEN": "SPORT GRASSO is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "SPORT GRASSO, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual, como flexión y abrasión.<br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "SPORT GRASSO ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/casual_footwear/sport_grasso/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/casual_footwear/sport_grasso/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "amarillo",
+          "name": "Amarillo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/sport_grasso/amarillo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "miel",
+          "name": "Miel",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/casual_footwear/sport_grasso/miel_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport_vildella",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Sport Vildella",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "SPORT VILDELLA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m<br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "SPORT VILDELLA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "SPORT VILDELLA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> -Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/sport_vildella/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/sport_vildella/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_nube",
+          "name": "Gris Nube",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/gris_nube_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_rey",
+          "name": "Azul Rey",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/azul_rey_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "carbon",
+          "name": "Carbon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/carbon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe_colonial",
+          "name": "Café Colonial",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/cafe_colonial_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "granate",
+          "name": "Granate",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_vildella/granate_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capellada_pq_100",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Capellada PQ 100",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "CAPELLADA PQ 100 is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CAPELLADA PQ 100, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CAPELLADA PQ 100 ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/capellada_pq_100/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/capellada_pq_100/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_pq_100/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hampton_rojo",
+          "name": "Hampton Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_pq_100/hampton_rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hampton_azul",
+          "name": "Hampton Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_pq_100/hampton_azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_pq_100/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ron",
+          "name": "Ron",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_pq_100/ron_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prisma",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Prisma",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "PRISMA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.12mm<br>-Width: 1.40 <br>-Weight: 853 +/- 45 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "PRISMA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión.<br><br>-Calibre: 1.65 +/- 0.12 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 45 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "PRISMA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,12mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 45 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/prisma/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/prisma/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "miel",
+          "name": "Miel",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/prisma/miel_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "caramelo",
+          "name": "Caramelo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/prisma/caramelo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/prisma/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe",
+          "name": "Café",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/prisma/cafe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/prisma/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/prisma/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "master",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Master",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "MASTER is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.80 +/- 0.12mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 45 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "MASTER, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión.<br><br>-Calibre: 1.80 +/- 0.12 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 45 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "MASTER ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,80 +/- 0,12mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 45 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/master/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/master/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "miel",
+          "name": "Miel",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/master/miel_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "caramelo",
+          "name": "Caramelo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/master/caramelo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/master/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe",
+          "name": "Café",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/master/cafe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/master/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/master/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capellada_silk",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Capellada Silk",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "CAPELLADA SILK is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CAPELLADA SILK, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CAPELLADA SILK ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/capellada_silk/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/capellada_silk/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rosa",
+          "name": "Oro Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/oro_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "nude",
+          "name": "Nude",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/nude_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "fucsia",
+          "name": "Fucsia",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/fucsia_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rojo",
+          "name": "Oro Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/oro_rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cereza",
+          "name": "Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja_acido",
+          "name": "Naranja Acido",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/naranja_acido_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_limon",
+          "name": "Amarillo Limon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/amarillo_limon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_neon",
+          "name": "Verde Neon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/verde_neon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aluminizado",
+          "name": "Aluminizado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/aluminizado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grafito",
+          "name": "Grafito",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/grafito_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_pacifico",
+          "name": "Azul Pacífico",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/azul_pacifico_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/navy_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_agua",
+          "name": "Verde Agua",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/verde_agua_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_militar",
+          "name": "Verde Militar",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_silk/verde_militar_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ankara",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Ankara",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "ANKARA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 2.00 +/- 0.13mm <br>-Width: 1.40 m<br>-Weight: 927 +/- 35 g /m² <br>-Standard Roll Length: 30m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "ANKARA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 2.00 +/- 0.13 mm<br>-Ancho: 1.40 m<br>-Peso: 927 +/- 35 g / m²<br>-Longitud del rollo: 30 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "ANKARA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 2,00 +/- 0,13mm<br> - Breite: 1,40 m<br> - Gewicht: 927 +/- 35 g / m²<br> - Standardrollenlänge: 30m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/ankara/nuvant_mat_normalmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "arena",
+          "name": "Arena",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/arena_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "almendra",
+          "name": "Almendra",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/almendra_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "capuccino",
+          "name": "Capuccino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/capuccino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "marron",
+          "name": "Marron",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/marron_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro",
+          "name": "Oro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/oro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "carbon",
+          "name": "Carbon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/carbon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ankara/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panama",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Panama",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "PANAMA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 860 +/- 45 g / m²<br>-Standard Roll Length: 40m<br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "PANAMÁ, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 860 +/- 45 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "PANAMA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 860 +/- 45 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> -Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/panama/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/panama/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "curuba",
+          "name": "Curuba",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/curuba_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "palo_de_rosa",
+          "name": "Palo de Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/palo_de_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "coral",
+          "name": "Coral",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/coral_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "coralino",
+          "name": "Coralino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/coralino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rojo",
+          "name": "Oro Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/oro_rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vino",
+          "name": "Vino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/vino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_petroleo",
+          "name": "Azul Petroleo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/azul_petroleo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_rey",
+          "name": "Azul Rey",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/azul_rey_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_agua",
+          "name": "Verde Agua",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/verde_agua_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mostaza",
+          "name": "Mostaza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/mostaza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "platino",
+          "name": "Platino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/platino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "carbon",
+          "name": "Carbon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/carbon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grafito",
+          "name": "Grafito",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/grafito_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/panama/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sportech",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Sportech",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "SPORTECH is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "SPORTECH, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión.<br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "SPORTECH ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/sportech/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/sportech/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sportech/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe_colonial",
+          "name": "Café Colonial",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sportech/cafe_colonial_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sportech/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ganna",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Ganna",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "GANNA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "GANNA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "GANNA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/ganna/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/ganna/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "lila",
+          "name": "Lila",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/lila_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "guava",
+          "name": "Guava",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/guava_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_claro",
+          "name": "Amarillo Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/amarillo_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grey_light",
+          "name": "Grey Light",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/grey_light_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "agua_marina",
+          "name": "Agua Marina",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/agua_marina_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja",
+          "name": "Naranja",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/naranja_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde",
+          "name": "Verde",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/verde_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "perla",
+          "name": "Perla",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/ganna/perla_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capellada_nova",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Capellada Nova",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "CAPELLADA NOVA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CAPELLADA NOVA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CAPELLADA NOVA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/capellada_nova/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/capellada_nova/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "lila",
+          "name": "Lila",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/lila_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "agua_marina",
+          "name": "Agua Marina",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/agua_marina_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_cielo",
+          "name": "Azul Cielo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/azul_cielo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo_cereza",
+          "name": "Rojo Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/rojo_cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_claro",
+          "name": "Amarillo Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/amarillo_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris",
+          "name": "Gris",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/gris_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mora_azul",
+          "name": "Mora Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/mora_azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/navy_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/capellada_nova/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rustik",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Rustik",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "RUSTIK is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.85 +/- 0.12mm<br>-Width: 1.40 <br>-Weight: 880 +/- 40 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "RUSTIK, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.85 +/- 0.12 mm<br>-Ancho: 1.40<br>-Peso: 880 +/- 40 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "RUSTIK ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,85 +/- 0,12mm<br> - Breite: 1,40 <br> - Gewicht: 880 +/- 40 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/rustik/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/rustik/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hielo",
+          "name": "Hielo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/hielo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris",
+          "name": "Gris",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/gris_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "arena",
+          "name": "Arena",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/arena_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "plomo",
+          "name": "Plomo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/plomo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro",
+          "name": "Oro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/oro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "hoja_seca",
+          "name": "Hoja Seca",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/hoja_seca_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_medio",
+          "name": "Azul Medio",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/rustik/azul_medio_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jungla",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Jungla",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "JUNGLA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 843 +/- 44 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "JUNGLA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual y deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 843 +/- 44 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "JUNGLA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 843 +/- 44 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/jungla/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/jungla/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "taupe",
+          "name": "Taupe",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/taupe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris",
+          "name": "Gris",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/gris_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro",
+          "name": "Oro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/oro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_militar",
+          "name": "Verde Militar",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/verde_militar_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vinotinto",
+          "name": "VinoTinto",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/vinotinto_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "petroleo",
+          "name": "Petroleo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/petroleo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cardenal",
+          "name": "Cardenal",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/cardenal_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/jungla/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinamic",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Dinamic",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "DINAMIC is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.70 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g /m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "DINAMIC, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.70 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br> <br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "DINAMIC ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,70 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/dinamic/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/dinamic/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ice",
+          "name": "Ice",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/ice_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "fucsia",
+          "name": "Fucsia",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/fucsia_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mostaza",
+          "name": "Mostaza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/mostaza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aguamarina",
+          "name": "Aguamarina",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/aguamarina_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "arena",
+          "name": "Arena",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/arena_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_militar",
+          "name": "Verde Militar",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/verde_militar_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_petroleo",
+          "name": "Azul Petroleo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/azul_petroleo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/dinamic/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chromic",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Chromic",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "CHROMIC is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm <br>-Width: 1.40 <br>-Weight: 867 +/- 49 g / m² <br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CHROMIC, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 867 +/- 49 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CHROMIC ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10 mm<br> - Breite: 1,40 <br> - Gewicht: 867 +/- 49 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/chromic/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/chromic/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "nude",
+          "name": "Nude",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/nude_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rosa",
+          "name": "Oro Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/oro_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vino",
+          "name": "Vino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/vino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "dorado",
+          "name": "Dorado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/dorado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde",
+          "name": "Verde",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/verde_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "platino",
+          "name": "Platino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/platino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grafito",
+          "name": "Grafito",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/grafito_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "celeste",
+          "name": "Celeste",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/celeste_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo_cereza",
+          "name": "Rojo Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/rojo_cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/chromic/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport_kid",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Sport Kid",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "SPORT KID is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "SPORT KID, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "SPORT KID ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/sport_kid/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/sport_kid/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_kid/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/sport_kid/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "puntera_sport_rubin",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Puntera Sport Rubin",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "PUNTERA SPORT RUBIN is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties.<br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "PUNTERA SPORT RUBIN, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "PUNTERA SPORT RUBIN ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/puntera_sport_rubin/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/puntera_sport_rubin/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/puntera_sport_rubin/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/puntera_sport_rubin/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zurich",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Zurich",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "ZURICH is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.52 +/- 0.09 mm<br>-Width: 1.40 m<br>-Weight: 739 +/- 40 g / m²<br>-Standard Roll Length: 40 m <br> <br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "ZURICH , producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.52 +/- 0.09 mm<br>-Ancho: 1.40 m<br>-Peso: 739 +/- 40 g / m²<br>-Longitud del rollo: 40 m<br><br> Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "ZURICH ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,52 +/- 0,09 mm<br> - Breite: 1,40 m<br> - Gewicht: 739 +/- 40 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/zurich/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/zurich/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "neon_fluor_pink",
+          "name": "Neon Fluor Pink",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/neon_fluor_pink_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo",
+          "name": "Amarillo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/amarillo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gold",
+          "name": "Gold",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/gold_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mora_light",
+          "name": "Mora Light",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/mora_light_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "turqueza",
+          "name": "Turqueza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/turqueza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aguamarina",
+          "name": "Aguamarina",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/aguamarina_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde",
+          "name": "Verde",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/verde_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_celeste",
+          "name": "Azul celeste",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/azul_celeste_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rosa",
+          "name": "Oro Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/oro_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_nube",
+          "name": "Gris Nube",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/zurich/gris_nube_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lemans",
+      "section_id": "sport_footwear",
+      "type": "viewer-3d",
+      "name": "Lemans",
+      "model": "images/footwear/sport_footwear/model/model.fbx",
+      "descriptionEN": "LE MANS is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.49 +/- 0.09 mm<br>-Width: 1.40 m<br>-Weight: 739 +/- 40 g / m²<br>-Standard Roll Length: 40 m <br> <br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "LE MANS, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento, tales como flexión y abrasión en el sector de calzado deportivo. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.49 +/- 0.09 mm<br>-Ancho: 1.40 m<br>-Peso: 739 +/- 40 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "LE MANS ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br><br>- Dicke: 1,49 +/- 0,09 mm<br>- Breite: 1,40 m<br>- Gewicht: 739 +/- 40 g / m²<br>- Standardrollenlänge: 40 m<br>Empfohlene Anwendungen:<br>- Schuhe<br>- Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/footwear/sport_footwear/lemans/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/footwear/sport_footwear/lemans/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "aluminizado",
+          "name": "Aluminizado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/aluminizado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo",
+          "name": "Amarillo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/amarillo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gold",
+          "name": "Gold",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/gold_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "lila",
+          "name": "Lila",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/lila_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "neon_fluor_pink",
+          "name": "Neon Fluor Pink",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/neon_fluor_pink_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rosa",
+          "name": "Oro Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/oro_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "zafiro",
+          "name": "Zafiro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/footwear/sport_footwear/lemans/zafiro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

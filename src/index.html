@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Dynamic 3D Materials</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+  <!-- Full Screen -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Web Fonts  -->
+  <link
+    href="https://fonts.googleapis.com/css?family=family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet" type="text/css">
+
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="vendor/animate/animate.compat.css">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/theme-elements.css">
+  <link rel="stylesheet" href="css/theme-blog.css">
+  <link rel="stylesheet" href="css/theme-shop.css">
+
+  <!-- Current Page CSS -->
+  <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+  <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+  <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+
+  <!-- Skin CSS -->
+  <link rel="stylesheet" href="css/skins/skin-it-services.css">
+
+  <!-- Theme Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/collection.css">
+  <link rel="stylesheet" href="css/index.css">
+
+
+  <!-- Head Libs -->
+  <script src="vendor/modernizr/modernizr.min.js"></script>
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body onload="init3d('./assets3d/')">
+  <script src="./assets3d/components3d.js"></script>
+  <script src="./assets3d/viewerSetup.js"></script>
+
+  <div class="body">
+    <div role="main" class="main">
+      <div class="categories-bg">
+        <div id="categories" onscroll="animateColBar()"></div>
+        <div id="category-sel-bar"></div>
+      </div>
+      <div class="mainContainer">
+        <div class="container3d">
+          <div id="content-loader" class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <viewer-3d onchangeinfo="onchangeinfo" class="viewer3d" nofloor></viewer-3d>
+          <panorama-360 onchangeinfo="onchangeinfo" class="viewer3d"
+            camprops='{"orbitProps":{"autoRotate":false, "maxDistance":40, "minDistance":5}}'></panorama-360>
+          <div id="render-container"></div>
+        </div>
+        <div id="materials" class="accordion"></div>
+        <div id="mat-detail">
+          <div class="mat-detail-cont">
+            <div class="mat-detail-close" onclick="moveDetail(false)">x</div>
+            <div id="mat-detail-img"></div>
+            <div class="mat-detail-text">
+              <div id="mat-detail-title"></div>
+              <div id="mat-detail-subtitle"></div>
+              <div id="mat-detail-desc"></div>
+              <div id="mat-detail-icons" class="row"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="dropCont" class="dropdown-container">
+        <div id="dropTrigger" style="position: relative">
+          <div class="dropdown">
+            <div class="dropdown-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <div class="dropdown-btn-content">
+                <img id="dropdown-icon" class="dropdown-icon">
+                <div id="dropdown-title"></div>
+                <img id="dropdown-arrow" srcset="./img/icons/ico_arrow.svg">
+              </div>
+            </div>
+            <div id="dropItems" class="dropdown-menu row" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="js/theme.js"></script>
+      <!-- Demo -->
+      <script src="js/index.js"></script>
+
+      <!-- Theme Custom -->
+      <script src="js/bundle.js"></script>
+
+      <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL4Wf0KvVvFX6MWj8IcRWdX4zu4KyxmFg&callback=initMap">
+        </script>
+
+      <!-- Theme Initialization Files -->
+      <script src="js/theme.init.js"></script>
+</body>
+
+</html>

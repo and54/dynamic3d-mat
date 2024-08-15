@@ -1,0 +1,910 @@
+{
+    "en": {
+        "contact_headquarters": {
+            "text": "Headquarters Office:\nCL 61 Sur N. 43 A – 290\r\nSabaneta, Antioquia 055450\r\nColombia\n\nBogota Office:\nCL 18 N. 69 B – 35\nBogotá, Colombia\n",
+            "visibility": "LATAM South America and Central América , México , Caribean"
+        },
+        "contact_phone_number": {
+            "text": "Colombia Toll Free Customer Service:\n 018000510755\n\nPBX:\n+574 3788686\n\nBogotá Office:\n+571 6449876",
+            "visibility": "LATAM South America and Central América , México , Caribean"
+        },
+        "contact_email": {
+            "text": "sales@nuvantglobal.com",
+            "visibility": "LATAM South America and Central América , México , Caribean"
+        },
+        "contact_": {
+            "text": "",
+            "visibility": "LATAM South America and Central América , México , Caribean"
+        },
+        "contact__1": {
+            "text": "",
+            "visibility": "LATAM South America and Central América , México , Caribean"
+        },
+        "contact_headquarters_2": {
+            "text": "2261 NW 66th Av. Building 702, Suite 221\nMiami, FL 33152 \n",
+            "visibility": "USA & Canada"
+        },
+        "contact_phone_number_2": {
+            "text": "Contract Division:  +1-336-909-8437\nAutomotive Division:  +1-248-761-2097",
+            "visibility": "USA & Canada"
+        },
+        "contact_email_2": {
+            "text": "northamerica@nuvantglobal.com",
+            "visibility": "USA & Canada"
+        },
+        "contact__2": {
+            "text": "",
+            "visibility": "USA & Canada"
+        },
+        "contact_headquarters_3": {
+            "text": "\nSpain Office: \nOsona, 2 (Edificio REGUS Mas Blau)\n08820 El Prat de Llobregat (Barcelona)\n\nGermany office:\nBei der Lehmkuhle 3 / Halle B2\n21629 Neu Wulmstorf\nGermay\n",
+            "visibility": "Europe, North Africa, Middle East, Russia, UK"
+        },
+        "contact_phone_number_3": {
+            "text": "Spain : +34 93 192 14 15\n\nGermany: \n+49 (0) 6142 - 2104595\n+49 (0) 6142 - 2104597\n+49 (0) 6142 - 2104596\n",
+            "visibility": "Europe, North Africa, Middle East, Russia, UK"
+        },
+        "contact_email_3": {
+            "text": "spain@nuvantglobal.com\n\ngermany@nuvantglobal.com",
+            "visibility": "Europe, North Africa, Middle East, Russia, UK"
+        },
+        "contact__3": {
+            "text": "",
+            "visibility": "Europe, North Africa, Middle East, Russia, UK"
+        },
+        "contact_headquarters_4": {
+            "text": "(all addresses above)",
+            "visibility": "Global / General (Asia, Australia , other countries)"
+        },
+        "contact_phone_number_4": {
+            "text": "(show all phone numbers above, with location)",
+            "visibility": "Global / General (Asia, Australia , other countries)"
+        },
+        "contact_email_4": {
+            "text": "(show all e-mails above, with location)",
+            "visibility": "Global / General (Asia, Australia , other countries)"
+        },
+        "contact__4": {
+            "text": "",
+            "visibility": "Global / General (Asia, Australia , other countries)"
+        },
+        "contact_form_input_name": {
+            "text": "#1 - Your Name",
+            "visibility": ""
+        },
+        "contact_form_section_name": {
+            "text": "CONTACT",
+            "visibility": ""
+        },
+        "contact_form_image": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header": {
+            "text": "Contact Us",
+            "visibility": ""
+        },
+        "contact_form_subheader": {
+            "text": "We’d love to hear from you. Please drop us a line and we’ll respond as soon as possible.",
+            "visibility": ""
+        },
+        "contact_form_copy": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields": {
+            "text": "Your Name",
+            "visibility": ""
+        },
+        "contact_form_cta": {
+            "text": "Submit",
+            "visibility": ""
+        },
+        "contact_form_input_name_8": {
+            "text": "#2 - Phone Number",
+            "visibility": ""
+        },
+        "contact_form_section_name_8": {
+            "text": "Get In Touch",
+            "visibility": ""
+        },
+        "contact_form_image_8": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_8": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_8": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_8": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_8": {
+            "text": "Phone Number",
+            "visibility": ""
+        },
+        "contact_form_cta_8": {
+            "text": "Submit",
+            "visibility": ""
+        },
+        "contact_form_input_name_9": {
+            "text": "#3 - Your Email",
+            "visibility": ""
+        },
+        "contact_form_section_name_9": {
+            "text": "Get In Touch",
+            "visibility": ""
+        },
+        "contact_form_image_9": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_9": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_9": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_9": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_9": {
+            "text": "Your Email",
+            "visibility": ""
+        },
+        "contact_form_cta_9": {
+            "text": "Submit",
+            "visibility": ""
+        },
+        "contact_form_input_name_10": {
+            "text": "#4 - Subject",
+            "visibility": ""
+        },
+        "contact_form_section_name_10": {
+            "text": "Get In Touch",
+            "visibility": ""
+        },
+        "contact_form_image_10": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_10": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_10": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_10": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_10": {
+            "text": "Subject",
+            "visibility": ""
+        },
+        "contact_form_cta_10": {
+            "text": "Submit",
+            "visibility": ""
+        },
+        "contact_form_input_name_11": {
+            "text": "#5 - Your message",
+            "visibility": ""
+        },
+        "contact_form_section_name_11": {
+            "text": "Get In Touch",
+            "visibility": ""
+        },
+        "contact_form_image_11": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_11": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_11": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_11": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_11": {
+            "text": "Your message",
+            "visibility": ""
+        },
+        "contact_form_cta_11": {
+            "text": "Submit",
+            "visibility": ""
+        },
+        "contact_form_input_name_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_section_name_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_image_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_header_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_cta_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters": {
+            "text": "Headquarters\nCL 61 Sur N. 43 A – 290\nSabaneta, Antioquia 055450\nColombia",
+            "visibility": ""
+        },
+        "footer_contact": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links": {
+            "text": "Home",
+            "visibility": ""
+        },
+        "footer_social_media_channels": {
+            "text": "Facebook",
+            "visibility": ""
+        },
+        "footer_subheader": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_16": {
+            "text": "About",
+            "visibility": ""
+        },
+        "footer_social_media_channels_16": {
+            "text": "Twitter",
+            "visibility": ""
+        },
+        "footer_subheader_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_17": {
+            "text": "Collections",
+            "visibility": ""
+        },
+        "footer_social_media_channels_17": {
+            "text": "Instagram",
+            "visibility": ""
+        },
+        "footer_subheader_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_18": {
+            "text": "Resources",
+            "visibility": ""
+        },
+        "footer_social_media_channels_18": {
+            "text": "Linkedin",
+            "visibility": ""
+        },
+        "footer_subheader_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_19": {
+            "text": "Terms & Conditions ",
+            "visibility": ""
+        },
+        "footer_social_media_channels_19": {
+            "text": "YouTube",
+            "visibility": ""
+        },
+        "footer_subheader_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_20": {
+            "text": "Privacy Policy",
+            "visibility": ""
+        },
+        "footer_social_media_channels_20": {
+            "text": "social@nuvantglobal.com",
+            "visibility": ""
+        },
+        "footer_subheader_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_20": {
+            "text": "",
+            "visibility": ""
+        }
+    },
+    "es": {
+        "contact_headquarters": {
+            "text": "Oficina principal:\nCL 61 Sur N. 43 A – 290\nSabaneta, Antioquía 055450\nColombia\n\nOficina de Bogotá:\nCL 18 N. 69 B – 35\nBogotá, Colombia\n",
+            "visibility": "América del Sur y América Central, México, Caribe"
+        },
+        "contact_sales": {
+            "text": "Línea gratuita\nde servicio al cliente desde Colombia:\n 018000510755\n\nFAX:\n+574 3788686\n\nOficina de Bogotá:\n+571 6449876",
+            "visibility": "América del Sur y América Central, México, Caribe"
+        },
+        "contact_email": {
+            "text": "sales@nuvantglobal.com",
+            "visibility": "América del Sur y América Central, México, Caribe"
+        },
+        "contact_": {
+            "text": "",
+            "visibility": "América del Sur y América Central, México, Caribe"
+        },
+        "contact__1": {
+            "text": "",
+            "visibility": "América del Sur y América Central, México, Caribe"
+        },
+        "contact_headquarters_2": {
+            "text": "2261 NW 66th Av. Building 702, Suite 221\nMiami, FL 33152 \n",
+            "visibility": "EE. UU. y Canadá"
+        },
+        "contact_sales_2": {
+            "text": "Línea de Contract:  +1-336-909-8437\nLínea Automotriz:  +1-248-761-2097",
+            "visibility": "EE. UU. y Canadá"
+        },
+        "contact_email_2": {
+            "text": "northamerica@nuvantglobal.com",
+            "visibility": "EE. UU. y Canadá"
+        },
+        "contact__2": {
+            "text": "",
+            "visibility": "EE. UU. y Canadá"
+        },
+        "contact_headquarters_3": {
+            "text": "\nOficina de España: \nOsona, 2 (Edificio REGUS Mas Blau)\n08820 El Prat de Llobregat (Barcelona)\n\nOficina de Alemania:\nBei der Lehmkuhle 3 / Halle B2\n21629 Neu Wulmstorf\nGermay\n",
+            "visibility": "Europa, África del Norte, Medio Oriente, Rusia, Reino Unido"
+        },
+        "contact_sales_3": {
+            "text": "España : +34 93 192 14 15\n\nAlemania: \n+49 (0) 6142 - 2104595\n+49 (0) 6142 - 2104597\n+49 (0) 6142 - 2104596\n",
+            "visibility": "Europa, África del Norte, Medio Oriente, Rusia, Reino Unido"
+        },
+        "contact_email_3": {
+            "text": "spain@nuvantglobal.com\n\ngermany@nuvantglobal.com",
+            "visibility": "Europa, África del Norte, Medio Oriente, Rusia, Reino Unido"
+        },
+        "contact__3": {
+            "text": "",
+            "visibility": "Europa, África del Norte, Medio Oriente, Rusia, Reino Unido"
+        },
+        "contact_headquarters_4": {
+            "text": "(mostrar todos los correos electrónicos de arriba con las locaciones)",
+            "visibility": "Global / General (Asia, Australia, otros países)"
+        },
+        "contact_sales_4": {
+            "text": "(mostrar todos los correos electrónicos de arriba con las locaciones)",
+            "visibility": "Global / General (Asia, Australia, otros países)"
+        },
+        "contact_email_4": {
+            "text": "(mostrar todos los correos electrónicos de arriba con las locaciones)",
+            "visibility": "Global / General (Asia, Australia, otros países)"
+        },
+        "contact__4": {
+            "text": "",
+            "visibility": "Global / General (Asia, Australia, otros países)"
+        },
+        "contact_form_input_name": {
+            "text": "#1 - Nombre",
+            "visibility": ""
+        },
+        "contact_form_section_name": {
+            "text": "Contáctenos",
+            "visibility": ""
+        },
+        "contact_form_image": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header": {
+            "text": "Contáctenos",
+            "visibility": ""
+        },
+        "contact_form_subheader": {
+            "text": "Queremos escuchar sus opiniones. Contáctenos y responderemos tan pronto como sea posible.",
+            "visibility": ""
+        },
+        "contact_form_copy": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields": {
+            "text": "Nombre",
+            "visibility": ""
+        },
+        "contact_form_cta": {
+            "text": "Enviar",
+            "visibility": ""
+        },
+        "contact_form_input_name_8": {
+            "text": "#2 - Número de teléfono",
+            "visibility": ""
+        },
+        "contact_form_section_name_8": {
+            "text": "Contáctenos",
+            "visibility": ""
+        },
+        "contact_form_image_8": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_8": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_8": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_8": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_8": {
+            "text": "Teléfono",
+            "visibility": ""
+        },
+        "contact_form_cta_8": {
+            "text": "Enviar",
+            "visibility": ""
+        },
+        "contact_form_input_name_9": {
+            "text": "#3 - Correo electrónico",
+            "visibility": ""
+        },
+        "contact_form_section_name_9": {
+            "text": "Contáctenos",
+            "visibility": ""
+        },
+        "contact_form_image_9": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_9": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_9": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_9": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_9": {
+            "text": "Correo electrónico",
+            "visibility": ""
+        },
+        "contact_form_cta_9": {
+            "text": "Enviar",
+            "visibility": ""
+        },
+        "contact_form_input_name_10": {
+            "text": "#4 - Asunto",
+            "visibility": ""
+        },
+        "contact_form_section_name_10": {
+            "text": "Contáctenos",
+            "visibility": ""
+        },
+        "contact_form_image_10": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_10": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_10": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_10": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_10": {
+            "text": "Asunto",
+            "visibility": ""
+        },
+        "contact_form_cta_10": {
+            "text": "Enviar",
+            "visibility": ""
+        },
+        "contact_form_input_name_11": {
+            "text": "#5 - Mensaje",
+            "visibility": ""
+        },
+        "contact_form_section_name_11": {
+            "text": "Contáctenos",
+            "visibility": ""
+        },
+        "contact_form_image_11": {
+            "text": "-",
+            "visibility": ""
+        },
+        "contact_form_header_11": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_11": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_11": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_11": {
+            "text": "Mensaje",
+            "visibility": ""
+        },
+        "contact_form_cta_11": {
+            "text": "Enviar",
+            "visibility": ""
+        },
+        "contact_form_input_name_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_section_name_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_image_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_header_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_subheader_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_copy_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_interactive_fields_12": {
+            "text": "",
+            "visibility": ""
+        },
+        "contact_form_cta_12": {
+            "text": "Y",
+            "visibility": ""
+        },
+        "footer_headquarters": {
+            "text": "Oficina principal\nCL 61 Sur N. 43 A – 290\nSabaneta, Antioquia 055450\nColombia\n",
+            "visibility": ""
+        },
+        "footer_contact": {
+            "text": "(create link to contact section)",
+            "visibility": ""
+        },
+        "footer_links": {
+            "text": "\nInicio",
+            "visibility": ""
+        },
+        "footer_social_media_channels": {
+            "text": "Facebook",
+            "visibility": ""
+        },
+        "footer_subheader": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_16": {
+            "text": "\nQuiénes Somos",
+            "visibility": ""
+        },
+        "footer_social_media_channels_16": {
+            "text": "Twitter",
+            "visibility": ""
+        },
+        "footer_subheader_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_16": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_17": {
+            "text": "\nColecciones",
+            "visibility": ""
+        },
+        "footer_social_media_channels_17": {
+            "text": "Instagram",
+            "visibility": ""
+        },
+        "footer_subheader_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_17": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_18": {
+            "text": "\nRecursos",
+            "visibility": ""
+        },
+        "footer_social_media_channels_18": {
+            "text": "Linkedin",
+            "visibility": ""
+        },
+        "footer_subheader_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_18": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_19": {
+            "text": "\nPolítica de Tratamiento de Datos",
+            "visibility": ""
+        },
+        "footer_social_media_channels_19": {
+            "text": "YouTube",
+            "visibility": ""
+        },
+        "footer_subheader_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_19": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_headquarters_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_contact_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_links_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_social_media_channels_20": {
+            "text": "social@nuvantglobal.com",
+            "visibility": ""
+        },
+        "footer_subheader_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_copy_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_interactive_fields_20": {
+            "text": "",
+            "visibility": ""
+        },
+        "footer_cta_20": {
+            "text": "",
+            "visibility": ""
+        }
+    }
+}

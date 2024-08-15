@@ -1,0 +1,4 @@
+themes/*
+node_modules/*
+src/assets3d/materials/*
+.DS_Store

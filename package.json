@@ -1,0 +1,24 @@
+{
+  "name": "nuvant-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve src",
+    "swatches": "node src/utils/create_swatches",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/js/src/index.js -o src/js/bundle.js",
+    "dev": "watchify src/js/src/index.js -o src/js/bundle.js",
+    "translate": "node src/js/custom/translations/parse_translations.js && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "csv-parser": "^2.3.3"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}

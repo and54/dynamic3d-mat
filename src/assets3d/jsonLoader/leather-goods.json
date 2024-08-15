@@ -1,0 +1,2308 @@
+{
+  "id": "leather_goods",
+  "nameEN": "Leather Goods & Sports Balls",
+  "nameES": "Marroquinería y Balones",
+  "nameGE": "Lederwaren und Sportbälle",
+  "icon": "ico_leathergoods",
+  "order": 6,
+  "sections": [
+    {
+      "id": "leather_goods",
+      "nameEN": "Leather goods",
+      "nameES": "Marroquinería",
+      "nameGE": "Lederwaren",
+      "order": 1
+    },
+    {
+      "id": "sports_balls",
+      "nameEN": "Sports balls",
+      "nameES": "Balones",
+      "nameGE": "Sportbälle",
+      "order": 2
+    }
+  ],
+  "crossProps": {
+    "leather_goods": {
+      "camprops": {
+        "zoom": 8,
+        "near": 4,
+        "far": 800
+      },
+      "visorprops": {
+        "position": [
+          0,
+          -13,
+          0
+        ]
+      },
+      "postLoad": [
+        {
+          "name": "static_mat",
+          "map": "images/leather_goods/leather_goods/model/static_mat_map.jpg",
+          "normalMap": "images/leather_goods/leather_goods/model/static_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/model/static_mat_roughnessmap.jpg",
+          "mapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "normalMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "roughnessMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          }
+        },
+        {
+          "name": "hardware_mat",
+          "envMap": [
+            "metal_env/nx.png",
+            "metal_env/ny.png",
+            "metal_env/nz.png",
+            "metal_env/px.png",
+            "metal_env/py.png",
+            "metal_env/pz.png"
+          ],
+          "matProps": {
+            "envMapIntensity": 3,
+            "roughness": 0.2,
+            "metalness": 0.9,
+            "color": "#faf7f2"
+          }
+        },
+        {
+          "name": "stitch_mat",
+          "map": "images/leather_goods/leather_goods/model/stitch_mat_map.jpg",
+          "normalMap": "images/leather_goods/leather_goods/model/stitch_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/model/stitch_mat_roughnessmap.jpg",
+          "alphaMap": "images/leather_goods/leather_goods/model/stitch_mat_alphamap.jpg",
+          "matProps": {
+            "alphaTest": 0.05,
+            "transparent": true
+          },
+          "mapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "normalMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "alphaMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          },
+          "roughnessMapProps": {
+            "wrapS": 1,
+            "wrapT": 1
+          }
+        },
+        {
+          "name": "nuvant_mat",
+          "envMap": [
+            "metal_env/nx.png",
+            "metal_env/ny.png",
+            "metal_env/nz.png",
+            "metal_env/px.png",
+            "metal_env/py.png",
+            "metal_env/pz.png"
+          ],
+          "matProps": {
+            "metalness": 0.1,
+            "roughness": 0.9,
+            "envMapIntensity": 1
+          }
+        },
+        {
+          "name": "floor_mat",
+          "alphaMap": "images/leather_goods/leather_goods/model/floor_mat_alphamap.jpg",
+          "matProps": {
+            "alphaTest": 0.01,
+            "color": "#000000",
+            "transparent": true,
+            "opacity": 0.5
+          }
+        }
+      ]
+    },
+    "sports_balls": {
+      "camprops": {
+        "zoom": 10
+      },
+      "visorprops": {
+        "position": [
+          0,
+          -9,
+          0
+        ]
+      },
+      "postLoad": [
+        {
+          "name": "floor_mat",
+          "alphaMap": "images/leather_goods/sports_balls/model/floor_mat_alphamap.jpg",
+          "matProps": {
+            "alphaTest": 0.01,
+            "color": "#000000",
+            "transparent": true,
+            "opacity": 0.5
+          }
+        }
+      ]
+    },
+    "all": {
+      "camprops": {
+        "orbitProps": {
+          "maxPolarAngle": 1.55,
+          "minPolarAngle": 0.5,
+          "maxDistance":600, 
+          "minDistance":100
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "id": "bravia",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Bravia",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "BRAVIA is made from PVC, with 100% polyester knitted fabric support.BRAVIA is setting the trend worldwide, due to ease of cleaning, durability, quality and design.Nuvant presents a varied range of colors that allow creating dynamic and comfortable spaces.<br>The top coat PREMIUMCOVER used in BRAVIA, grants the vinyl textile greater durability, providing excellent resistance to abrasion and protection against the growth of microorganisms.<br><br>-Thickness: 1.06 +/- 0.11mm<br>-Width: 1.40 m<br>-Weight: 635 +/- 46 g / m²<br>-Standard Roll Length: 45m <br><br>Recommended Applications:<br>-Cinema<br>-Indoor use<br>-Offices<br>-Restaurants<br>-Hotels<br>-Residential<br>-Mass Transportation<br><br>Main Features:<br>-UV light resistant: Protected with special agents and formulated with UV light resistant pigments.<br>-Fire retardant: It complies with this characteristic according to the following rules:<br>•SAE J 369 June 2013 / FMVSS 302 ;<br>•CAL 117- California tech. bulletin 117 - Section E ;<br>•16 CFR 1611 - Standard for the flammability of vinyl plastic film<br>-Special protection with high resistance to abrasion.<br>-Antibacterial and fungicidal additives which prevent proliferation of fungus and bacteria.",
+      "descriptionES": "BRAVIA, producto de excelente calidad y cuenta con una amplia gama de colores que permiten crear espacios dinámicos y confortables.<br><br>Nuestro recubrimiento PREMIUMCOVER, utilizado en este producto, le otorga mayor durabilidad y un excelente desempeño en abrasión y la no proliferación de microorganismos.<br><br>-Calibre: 1.06 +/- 0.11 mm<br>-Ancho: 1.40 m<br>-Peso: 635 +/- 46 g / m²<br>-Longitud del rollo: 45 m<br><br>Aplicaciones:<br>-Uso en muebles de interiores<br>-Cinemas<br>-Oficinas<br>-Restaurantes<br>-Hoteles<br>-Residencial<br>-Institucional<br>- Hospitales y centros médicos <br><br>Principales características:<br>-Resistencia a la luz UV<br>-Retardancia al fuego: cumple con esta característica de acuerdo a las siguientes normas:<br>• SAE J 369 junio del 2013 / FMVSS 302;<br>• CAL 117- Tecnología de California Boletín 117 - Sección E<br>• 16 CFR 1611 - Norma para la inflamabilidad de películas de plástico de vinilo<br>-PREMIUMCOVER: protección especial, la cual le una confiere elevada resistencia a la abrasión.<br>-Aditivos antibacteriales y fungicidas que previenen la proliferación de hongos y bacterias.",
+      "descriptionGE": "BRAVIA besteht aus PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe.BRAVIA ist ein Trendsetter - es ist pflegeleicht und haltbar, hochwertig und attraktiv.<br>Nuvant präsentiert eine reichhaltige Farbauswahl, mit der sich dynamische und komfortable Flächen kreieren lassen.<br> <br>Die für BRAVIA verwendete Oberflächenbeschichtung PREMIUMCOVER macht den Vinylstoff haltbarer und besonders scheuerbeständig und hemmt das Wachstum von Mikroorganismen.<br><br> <br> - Dicke: 1,06 +/- 0,11mm<br> - Breite: 1,40 m<br> - Gewicht: 635 +/- 46 g / m²<br> - Standardrollenlänge: 45 m <br><br> Empfohlene Anwendungen:<br> - Kinos<br> - Innenanwendung<br> - Büros<br> - Restaurants<br> - Hotels<br> - Wohnflächen<br> - Massenverkehrsmittel<br><br> Haupteigenschaften:<br> - UV-Lichtecht: Geschützt durch besondere Agenzien und gefertigt mit UV-beständigen Pigmenten.<br> - Schwer entflammbar: Die Eigenschaft des Brandschutzes erfüllt das Material laut folgender Standards:<br> • SAE J 369 vom Juni 2013 / FMVSS 302 ;<br> • CAL 117- California Technical Bulletin 117 - Section E;<br> • 16 CFR 1611 - US-Standard for the flammability of vinyl plastic film<br> - Besonders geschützt mit hoher Scheuerbeständigkeit.<br> - Antibakterielle und fungizide Zusatzstoffe, welche die Vermehrung von Pilzen und Bakterien hemmen.",
+      "certifications": [
+        "U.V Radiation resistance symbol",
+        "Fire retardant symbol",
+        "Mold and Mildew resistance symbol",
+        "Cold Crack resistance symbol",
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/bravia/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/bravia/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "ice",
+          "name": "Ice",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/ice_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "blanco_puro",
+          "name": "Blanco Puro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/blanco_puro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "perla",
+          "name": "Perla",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/perla_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "bond",
+          "name": "Bond",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/bond_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vainilla",
+          "name": "Vainilla",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/vainilla_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "durazno",
+          "name": "Durazno",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/durazno_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "apricot",
+          "name": "Apricot",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/apricot_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo_cereza",
+          "name": "Rojo Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/rojo_cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mora",
+          "name": "Mora",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/mora_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vino",
+          "name": "Vino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/vino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_light",
+          "name": "Verde Light",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/verde_light_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_oscuro",
+          "name": "Verde Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/verde_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oceano",
+          "name": "Azul Oceano",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/azul_oceano_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "camel",
+          "name": "Camel",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/camel_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "marron",
+          "name": "Marron",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/marron_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "chocolate",
+          "name": "Chocolate",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/chocolate_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "brownie",
+          "name": "Brownie",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/brownie_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_raton",
+          "name": "Gris Ratón",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/gris_raton_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bravia_bic",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Bravia Bic",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "BRAVIA is made from PVC, with 100% polyester knitted fabric support.BRAVIA is setting the trend worldwide, due to ease of cleaning, durability, quality and design.Nuvant presents a varied range of colors that allow creating dynamic and comfortable spaces.<br>The top coat PREMIUMCOVER used in BRAVIA, grants the vinyl textile greater durability, providing excellent resistance to abrasion and protection against the growth of microorganisms.<br><br>-Thickness: 1.06 +/- 0.11mm<br>-Width: 1.40 m<br>-Weight: 635 +/- 46 g / m²<br>-Standard Roll Length: 45m <br><br>Recommended Applications:<br>-Cinema<br>-Indoor use<br>-Offices<br>-Restaurants<br>-Hotels<br>-Residential<br>-Mass Transportation<br><br>Main Features:<br>-UV light resistant: Protected with special agents and formulated with UV light resistant pigments.<br>-Fire retardant: It complies with this characteristic according to the following rules:<br>•SAE J 369 June 2013 / FMVSS 302 ;<br>•CAL 117- California tech. bulletin 117 - Section E ;<br>•16 CFR 1611 - Standard for the flammability of vinyl plastic film<br>-Special protection with high resistance to abrasion.<br>-Antibacterial and fungicidal additives which prevent proliferation of fungus and bacteria.",
+      "descriptionES": "BRAVIA, producto de excelente calidad y cuenta con una amplia gama de colores que permiten crear espacios dinámicos y confortables.<br><br>Nuestro recubrimiento PREMIUMCOVER, utilizado en este producto, le otorga mayor durabilidad y un excelente desempeño en abrasión y la no proliferación de microorganismos.<br><br>-Calibre: 1.06 +/- 0.11 mm<br>-Ancho: 1.40 m<br>-Peso: 635 +/- 46 g / m²<br>-Longitud del rollo: 45 m<br><br>Aplicaciones:<br>-Uso en muebles de interiores<br>-Cinemas<br>-Oficinas<br>-Restaurantes<br>-Hoteles<br>-Residencial<br>-Institucional<br>- Hospitales y centros médicos <br><br>Principales características:<br>-Resistencia a la luz UV<br>-Retardancia al fuego: cumple con esta característica de acuerdo a las siguientes normas:<br>• SAE J 369 junio del 2013 / FMVSS 302;<br>• CAL 117- Tecnología de California Boletín 117 - Sección E<br>• 16 CFR 1611 - Norma para la inflamabilidad de películas de plástico de vinilo<br>-PREMIUMCOVER: protección especial, la cual le una confiere elevada resistencia a la abrasión.<br>-Aditivos antibacteriales y fungicidas que previenen la proliferación de hongos y bacterias.",
+      "descriptionGE": "BRAVIA besteht aus PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe.BRAVIA ist ein Trendsetter - es ist pflegeleicht und haltbar, hochwertig und attraktiv.<br>Nuvant präsentiert eine reichhaltige Farbauswahl, mit der sich dynamische und komfortable Flächen kreieren lassen.<br> <br>Die für BRAVIA verwendete Oberflächenbeschichtung PREMIUMCOVER macht den Vinylstoff haltbarer und besonders scheuerbeständig und hemmt das Wachstum von Mikroorganismen.<br><br> <br> - Dicke: 1,06 +/- 0,11mm<br> - Breite: 1,40 m<br> - Gewicht: 635 +/- 46 g / m²<br> - Standardrollenlänge: 45 m <br><br> Empfohlene Anwendungen:<br> - Kinos<br> - Innenanwendung<br> - Büros<br> - Restaurants<br> - Hotels<br> - Wohnflächen<br> - Massenverkehrsmittel<br><br> Haupteigenschaften:<br> - UV-Lichtecht: Geschützt durch besondere Agenzien und gefertigt mit UV-beständigen Pigmenten.<br> - Schwer entflammbar: Die Eigenschaft des Brandschutzes erfüllt das Material laut folgender Standards:<br> • SAE J 369 vom Juni 2013 / FMVSS 302 ;<br> • CAL 117- California Technical Bulletin 117 - Section E;<br> • 16 CFR 1611 - US-Standard for the flammability of vinyl plastic film<br> - Besonders geschützt mit hoher Scheuerbeständigkeit.<br> - Antibakterielle und fungizide Zusatzstoffe, welche die Vermehrung von Pilzen und Bakterien hemmen.",
+      "certifications": [
+        "U.V Radiation resistance symbol",
+        "Fire retardant symbol",
+        "Mold and Mildew resistance symbol",
+        "Cold Crack resistance symbol",
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/bravia_bic/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/bravia_bic/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "capuchino_bic",
+          "name": "Capuchino Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/capuchino_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "bronce",
+          "name": "Bronce",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/bronce_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cobre",
+          "name": "Cobre",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/cobre_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "crema_bic",
+          "name": "Crema Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/crema_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mocca",
+          "name": "Mocca",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/mocca_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja_bic",
+          "name": "Naranja Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/naranja_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "plata",
+          "name": "Plata",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/plata_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/bravia_bic/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capellada_silk",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Capellada Silk",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "CAPELLADA SILK is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CAPELLADA SILK, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CAPELLADA SILK ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/capellada_silk/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/capellada_silk/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rosa",
+          "name": "Oro Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/oro_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "nude",
+          "name": "Nude",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/nude_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "fucsia",
+          "name": "Fucsia",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/fucsia_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rojo",
+          "name": "Oro Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/oro_rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cereza",
+          "name": "Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja_acido",
+          "name": "Naranja Acido",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/naranja_acido_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_limon",
+          "name": "Amarillo Limon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/amarillo_limon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_neon",
+          "name": "Verde Neon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/verde_neon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aluminizado",
+          "name": "Aluminizado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/aluminizado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grafito",
+          "name": "Grafito",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/grafito_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_pacifico",
+          "name": "Azul Pacífico",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/azul_pacifico_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/navy_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_agua",
+          "name": "Verde Agua",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/verde_agua_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_militar",
+          "name": "Verde Militar",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_silk/verde_militar_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panama",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Panama",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "PANAMA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 860 +/- 45 g / m²<br>-Standard Roll Length: 40m<br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "PANAMÁ, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 860 +/- 45 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "PANAMA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 860 +/- 45 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> -Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/panama/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/panama/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "curuba",
+          "name": "Curuba",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/curuba_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "palo_de_rosa",
+          "name": "Palo de Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/palo_de_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "coral",
+          "name": "Coral",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/coral_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "coralino",
+          "name": "Coralino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/coralino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rojo",
+          "name": "Oro Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/oro_rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vino",
+          "name": "Vino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/vino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_petroleo",
+          "name": "Azul Petroleo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/azul_petroleo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_rey",
+          "name": "Azul Rey",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/azul_rey_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_agua",
+          "name": "Verde Agua",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/verde_agua_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mostaza",
+          "name": "Mostaza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/mostaza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "platino",
+          "name": "Platino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/platino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "carbon",
+          "name": "Carbon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/carbon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grafito",
+          "name": "Grafito",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/grafito_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/panama/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ganna",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Ganna",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "GANNA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "GANNA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "GANNA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/ganna/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/ganna/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "lila",
+          "name": "Lila",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/lila_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "guava",
+          "name": "Guava",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/guava_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_claro",
+          "name": "Amarillo Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/amarillo_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grey_light",
+          "name": "Grey Light",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/grey_light_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "agua_marina",
+          "name": "Agua Marina",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/agua_marina_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja",
+          "name": "Naranja",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/naranja_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde",
+          "name": "Verde",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/verde_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "perla",
+          "name": "Perla",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/ganna/perla_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capellada_nova",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Capellada Nova",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "CAPELLADA NOVA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CAPELLADA NOVA , producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CAPELLADA NOVA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/capellada_nova/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/capellada_nova/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "lila",
+          "name": "Lila",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/lila_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "agua_marina",
+          "name": "Agua Marina",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/agua_marina_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_cielo",
+          "name": "Azul Cielo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/azul_cielo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo_cereza",
+          "name": "Rojo Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/rojo_cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_claro",
+          "name": "Amarillo Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/amarillo_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris",
+          "name": "Gris",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/gris_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul",
+          "name": "Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mora_azul",
+          "name": "Mora Azul",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/mora_azul_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/navy_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/capellada_nova/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vienna",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Vienna",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "VIENNA is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40 m<br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "VIENNA, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual, como flexión y abrasión. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "VIENNA ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> -Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/vienna/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/vienna/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/vienna/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "melaza",
+          "name": "Melaza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/vienna/melaza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ron",
+          "name": "Ron",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/vienna/ron_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "caoba",
+          "name": "Caoba",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/vienna/caoba_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe_colonial",
+          "name": "Café Colonial",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/vienna/cafe_colonial_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/vienna/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinamic",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Dinamic",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "DINAMIC is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.70 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "DINAMIC, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.70 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "DINAMIC ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,70 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/dinamic/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/dinamic/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ice",
+          "name": "Ice",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/ice_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "fucsia",
+          "name": "Fucsia",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/fucsia_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "mostaza",
+          "name": "Mostaza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/mostaza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aguamarina",
+          "name": "Aguamarina",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/aguamarina_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "arena",
+          "name": "Arena",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/arena_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_militar",
+          "name": "Verde Militar",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/verde_militar_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "tabaco",
+          "name": "Tabaco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/tabaco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_petroleo",
+          "name": "Azul Petroleo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/azul_petroleo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/dinamic/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chromic",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Chromic",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "CHROMIC is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 <br>-Weight: 867 +/- 49 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
+      "descriptionES": "CHROMIC, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. Cuenta con una amplia gama de colores. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40<br>-Peso: 867 +/- 49 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
+      "descriptionGE": "CHROMIC ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 <br> - Gewicht: 867 +/- 49 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/chromic/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/chromic/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "nude",
+          "name": "Nude",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/nude_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "oro_rosa",
+          "name": "Oro Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/oro_rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "vino",
+          "name": "Vino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/vino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "dorado",
+          "name": "Dorado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/dorado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde",
+          "name": "Verde",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/verde_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "platino",
+          "name": "Platino",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/platino_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "grafito",
+          "name": "Grafito",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/grafito_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "celeste",
+          "name": "Celeste",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/celeste_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo_cereza",
+          "name": "Rojo Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/rojo_cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/chromic/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eclipse",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Eclipse",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "ECLIPSE is a high-quality synthetic leather with a classic embossing, which is particularly suitable for universal use, interior uphostery and contract sector. This classic synthetic leather material is very flexible due to its backing that allows to get a balanced elongation on both ways (wrap and fill), for excelent comformability.<br>The top coat ADVANPROTECH used in ECLIPSE, provides a greater resistance to abrasion and protection against the growth of microorganisms, granting excellent stain resistance, especially the one caused by the transfer of colorants, such as indigo present in denim fabric. Additionally, it generates easier cleaning performance for common stains and dirt, while maintaining a pleasant touch.  <br><br>-Thickness: 1.20 +/- 0.08mm<br>-Width: 1.40 m<br>-Weight: 645 +/- 30 g / m²<br>-Standard Roll Length: 45m<br><br>Recommended Applications:<br>-Cinema<br>-Indoor use<br>-Offices<br>-Restaurants<br>-Hotels<br>-Residential<br>-Mass Transportation<br><br>Main Features:<br>-Flame retardan resistance according to the methods:<br>•SAE J369 June 2013.<br>•FMVSS 302 <br>•CAL 117 - California tech. bulletin 117 - Section E. <br>-Special protection which gives it high resistance to abrasion. <br>-Mold resistant: antibacterial and fungicidal additives which prevent the proliferation of fungi and bacteria according to the ASTM G21 method. <br>-UV light resistant: protected with special agents and formulated with UV light resistant pigments. <br>-Low temperature performance according to the CFF 6a roller method (-29 ° C).<br>-Balanced elongation capacity in both directions, warp and fill according to the SAE J855 method.",
+      "descriptionES": "ECLIPSE, producto de excelente calidad y cuenta con una amplia gama de colores que permiten crear espacios dinámicos y confortables. Esta referencia cuenta con un soporte de elongación en ambos sentidos (longitudinal y transversal), ideal para tapizados con curvaturas exigentes, brindando una excelente hormabilidad. <br>Nuestro recubrimiento ADVANPROTECH, utilizado en ECLIPSE, proporciona una mayor resistencia a la abrasión, evitando el crecimiento de microorganismos, generando una excelente resistencia al manchado. Adicionalmente, cuenta con un recubrimiento que genera mayor facilidad de limpieza, mientras mantiene un agradable tacto.<br><br>-Calibre: 1.20 +/- 0.08 mm<br>-Ancho: 1.40 m<br>-Peso: 645 +/- 30 g / m²<br>-Longitud del rollo: 45 m<br><br>Aplicaciones:<br>-Uso en muebles de interiores<br>-Cinemas<br>-Oficinas<br>-Restaurantes<br>-Hoteles<br>-Residencial<br>-Institucional<br>- Hospitales y centros médicos <br><br>Principales características:<br>-Retardancia al fuego: cumple con esta característica de acuerdo a las siguientes normas:<br>• SAE J369 junio del 2013.<br>• FMVSS 302<br>• CAL 117 - Tecnología de California Boletín 117 - Sección E<br>-ADVANPROTECH: protección especial, la cual le confiere una elevada resistencia a la abrasión.<br>-Resistente al moho: aditivos antibacteriales y fungicidas que previenen la proliferación de hongos y bacterias, según el método ASTM G21.<br>-Resistencia a la luz UV<br>-Resistencia a bajas temperaturas, según el método de rodillo CFF 6a (-29 ° C).<br>-Capacidad de elongación en ambos sentidos, urdimbre y trama, según el método SAE J855.",
+      "descriptionGE": "ECLIPSE ist ein hochwertiges Kunstleder mit klassischer Prägung, das besonders für allgemeine Verwendung, Innenausstattung und Objektsektor geeignet ist. Dieses klassische Kunstleder ist aufgrund seines beidseitig (Bezug und Füllung) gleichmäßig dehnbaren Trägergewebes sehr flexibel und dadurch hervorragend anpassbar.<br> <br>Die für ECLIPSE verwendete Oberflächenbeschichtung ADVANPROTECH sorgt für stärkere Scheuerbeständigkeit und Wachstumshemmung bei Mikroorganismen, ausgezeichnete Fleckenbeständigkeit, insbesondere gegen Färbemittel wie dem Indigo im Denim. Zudem lässt es sich bei normaler Verschmutzung leichter reinigen und behält dabei seine angenehme Haptik. <br> <br> - Dicke: 1,20 +/- 0,08mm<br> - Breite: 1,40 m<br> - Gewicht: 645 +/- 30 g / m²<br> - Standardrollenlänge: 45 m <br><br> Empfohlene Anwendungen:<br> - Kinos<br> - Innenanwendung<br> - Büros<br> - Restaurants<br> - Hotels<br> - Wohnflächen<br> - Massenverkehrsmittel<br><br> Haupteigenschaften:<br> - Schwer entflammbar laut folgender Standards:<br> • SAE J369 vom Juni 2013.<br> • FMVSS 302 <br>• CAL 117 - California Technological Bulletin 117 - Section E<br>- Besonders geschützt gegen Abrieb. <br> - Schimmelbeständig: Antibakterielle und fungizide Zusatzstoffe, welche die Vermehrung von Pilzen und Bakterien hemmen, laut dem Standard ASTM G21. <br> UV-lichtecht: Geschützt durch besondere Agenzien und gefertigt mit UV-beständigen Pigmenten. <br> - Kältebeständig laut der Rollermethode nach CFF 6a (bis - 29 °C).<br> - beidseitig (Bezug und Füllung) gleichmäßig dehnbar laut dem Standard SAE J855.",
+      "certifications": [
+        "U.V Radiation resistance symbol",
+        "Fire retardant symbol",
+        "Mold and Mildew resistance symbol",
+        "Cold Crack resistance symbol",
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/eclipse/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/eclipse/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "blanco_perlado_bic",
+          "name": "Blanco Perlado Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/blanco_perlado_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa_perlado",
+          "name": "Rosa Perlado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/rosa_perlado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/ivory_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "perla",
+          "name": "Perla",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/perla_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "perla_bic",
+          "name": "Perla Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/perla_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/beige_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "adobe",
+          "name": "Adobe",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/adobe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja",
+          "name": "Naranja",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/naranja_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "turquesa",
+          "name": "Turquesa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/turquesa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_oscuro",
+          "name": "Azul Oscuro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/azul_oscuro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_seco",
+          "name": "Verde Seco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/verde_seco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "miel_bic",
+          "name": "Miel Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/miel_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cognac",
+          "name": "Cognac",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/cognac_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "chocolate",
+          "name": "Chocolate",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/chocolate_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_bic",
+          "name": "Gris Bic",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/gris_bic_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/eclipse/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corsso",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Corsso",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "CORSSO is made from PVC, with 100% polyester knitted fabric support. Nuvant presents a varied range of colors that allow creating dynamic and comfortable spaces.<br><br>-Thickness: 0.86 +/- 0.06mm<br>-Width: 1.40 m<br>-Weight: 521 +/- 42 g /m²<br>-Standard Roll Length: 60m <br><br>Recommended Applications:<br>-Indoor use<br>-Residential",
+      "descriptionES": "CORSSO, producto de excelente calidad que cuenta con una amplia gama de colores, que permiten crear espacios dinámicos y confortables.<br><br>-Calibre: 0.86 +/- 0.06mm<br>-Ancho: 1.40 m<br>-Peso: 521 +/- 42 g /m²<br>-Longitud del rollo: 60 m<br><br>Aplicaciones:<br>-Uso en muebles de interiores<br>-Oficinas<br>-Restaurantes<br>-Hoteles<br>-Residencial<br>-Institucional",
+      "descriptionGE": "CORSSO besteht aus PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe. Nuvant präsentiert eine reichhaltige Farbauswahl, mit der sich dynamische und komfortable Produkte kreieren lassen.<br> <br> - Dicke: 0,86 +/- 0,06mm<br> - Breite: 1,40 m<br> - Gewicht: 521 +/- 42 g / m²<br> - Standardrollenlänge: 60m <br><br> Empfohlene Anwendungen:<br> - Innenanwendung<br> - Wohnbereich",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/corsso/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/corsso/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/ivory_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "crema",
+          "name": "Crema",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/crema_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "duna",
+          "name": "Duna",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/duna_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "safari_cafe",
+          "name": "Safari Café",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/safari_cafe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe_bicolor",
+          "name": "Café Bicolor",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/cafe_bicolor_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "chocolate",
+          "name": "Chocolate",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/chocolate_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "citrus",
+          "name": "Citrus",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/citrus_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "turqueza",
+          "name": "Turqueza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/turqueza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cyan",
+          "name": "Cyan",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/cyan_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "fucsia",
+          "name": "Fucsia",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/fucsia_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "orange",
+          "name": "Orange",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/orange_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rojo",
+          "name": "Rojo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/rojo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "burdeos",
+          "name": "Burdeos",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/burdeos_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/gris_claro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "papiro",
+          "name": "Papiro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/papiro_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "dark_grey",
+          "name": "Dark Grey",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/dark_grey_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/rosa_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "terracota",
+          "name": "Terracota",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso/terracota_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corsso_plus",
+      "section_id": "leather_goods",
+      "type": "viewer-3d",
+      "name": "Corsso Plus",
+      "model": "images/leather_goods/leather_goods/model/model.fbx",
+      "descriptionEN": "CORSSO PLUS is made from PVC, with 100% polyester knitted fabric support. Nuvant presents a varied range of colors that allow creating dynamic and comfortable spaces.<br><br>-Thickness: 0.86 +/- 0.06mm<br>-Width: 1.40 m<br>-Weight: 521 +/- 42 g /m²<br>-Standard Roll Length: 60m <br><br>Recommended Applications:<br>-Indoor use<br>-Residential",
+      "descriptionES": "CORSSO PLUS, producto de excelente calidad que cuenta con una amplia gama de colores, que permiten crear espacios dinámicos y confortables.<br><br>-Calibre: 0.86 +/- 0.06mm<br>-Ancho: 1.40 m<br>-Peso: 521 +/- 42 g /m²<br>-Longitud del rollo: 60 m<br><br>Aplicaciones:<br>-Uso en muebles de interiores<br>-Oficinas<br>-Restaurantes<br>-Hoteles<br>-Residencial<br>-Institucional",
+      "descriptionGE": "CORSSO PLUS besteht aus PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe. Nuvant präsentiert eine reichhaltige Farbauswahl, mit der sich dynamische und komfortable Flächen kreieren lassen. CORSSO PLUS ist ein Produkt mit hoher Leistungsfähigkeit und Haltbarkeit.<br> <br> - Dicke: 0,86 +/- 0,06mm<br> - Breite: 1,40 m<br> - Gewicht: 521 +/- 42 g / m²<br> - Standardrollenlänge: 60m <br><br> Empfohlene Anwendungen:<br> - Innenanwendung<br>- Wohnbereich",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/leather_goods/corsso_plus/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/leather_goods/corsso_plus/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco_perlado",
+          "name": "Blanco Perlado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/blanco_perlado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "perla",
+          "name": "Perla",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/perla_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "chanpana_perlado",
+          "name": "Chanpaña Perlado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/chanpana_perlado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "alpaca_metalizado",
+          "name": "Alpaca Metalizado",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/alpaca_metalizado_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "taupe",
+          "name": "Taupe",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/taupe_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "bronce",
+          "name": "Bronce",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/bronce_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "menta",
+          "name": "Menta",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/menta_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "petroleo",
+          "name": "Petroleo",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/petroleo_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "violeta",
+          "name": "Violeta",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/violeta_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "plata",
+          "name": "Plata",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/leather_goods/corsso_plus/plata_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balon_premier",
+      "section_id": "sports_balls",
+      "type": "viewer-3d",
+      "name": "Balón Premier",
+      "model": "images/leather_goods/sports_balls/model/model.fbx",
+      "descriptionEN": "BALÓN PREMIER is a high quality vinyl fabric made from PVC emulsion resin with a cotton fabric support, which gives high mechanical properties.<br><br>-Thickness: 1.65 +/- 0.15mm<br>-Width: 1.40 m<br>-Weight: 825 +/- 50 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Manufacture of sportballs",
+      "descriptionES": "BALÓN PREMIER, producto elaborado para la fabricación de balones con una base textil de algodón, que facilita el pegado. <br><br>-Calibre: 1.65 +/- 0.15 mm<br>-Ancho: 1.40 m<br>-Peso: 825 +/- 50 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Fabricación de balones deportivos (futbol, Volleyball)",
+      "descriptionGE": "BALÓN PREMIER ist ein hochwertiges Vinylgewebe aus PVC-Emulsionsharz mit einem Baumwollgewebeträger, der hohe mechanische Eigenschaften bietet.<br> <br> - Dicke: 1,65 +/- 0,15 mm<br> - Breite: 1,40 m<br> - Gewicht: 825 +/- 50 g / m²<br> - Standardrollenlänge: 40 m<br><br>Empfohlene Anwendungen<br> - Fertigung von Sportbällen",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/sports_balls/balon_premier/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/sports_balls/balon_premier/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_premier/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_limon",
+          "name": "Amarillo Limon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_premier/amarillo_limon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_acido",
+          "name": "Verde Acido",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_premier/verde_acido_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja_acido",
+          "name": "Naranja Acido",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_premier/naranja_acido_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cereza",
+          "name": "Cereza",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_premier/cereza_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "azul_rey",
+          "name": "Azul Rey",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_premier/azul_rey_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "negro",
+          "name": "Negro",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_premier/negro_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balon_soccer",
+      "section_id": "sports_balls",
+      "type": "viewer-3d",
+      "name": "Balón Soccer",
+      "model": "images/leather_goods/sports_balls/model/model.fbx",
+      "descriptionEN": "BALÓN SOCCER is a high quality vinyl fabric made from PVC emulsion resin with a cotton fabric support, which gives high mechanical properties.<br><br>-Thickness: 1.96 +/- 0.13mm<br>-Width: 1.40 m<br>-Weight: 966 +/- 53 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Manufacture of sportballs",
+      "descriptionES": "BALÓN SOCCER, producto elaborado para la fabricación de balones con una base textil de algodón que facilita el pegado. <br><br>-Calibre: 1.96 +/- 0.13 mm<br>-Ancho: 1.40 m<br>-Peso: 966 +/- 53 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Fabricación de balones deportivos (futbol, volleyball)",
+      "descriptionGE": "BALÓN SOCCER ist ein hochwertiges Vinylgewebe aus PVC-Emulsionsharz mit einem Baumwollgewebeträger, der hohe mechanische Eigenschaften bietet.<br> <br> - Dicke: 1,96 +/- 0,13mm<br> - Breite: 1,40 m<br> - Gewicht: 966 +/- 53 g / m²<br> - Standardrollenlänge: 40 m<br><br>Empfohlene Anwendungen<br> - Fertigung von Sportbällen",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/sports_balls/balon_soccer/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/sports_balls/balon_soccer/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "blanco",
+          "name": "Blanco",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_soccer/blanco_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "amarillo_limon",
+          "name": "Amarillo Limon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_soccer/amarillo_limon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "verde_limon",
+          "name": "Verde Limon",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_soccer/verde_limon_nuvant_mat_map.jpg"
+            }
+          ]
+        },
+        {
+          "id": "naranja_acido",
+          "name": "Naranja Acido",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_soccer/naranja_acido_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balon_professional",
+      "section_id": "sports_balls",
+      "type": "viewer-3d",
+      "name": "Balón Professional",
+      "model": "images/leather_goods/sports_balls/model/model.fbx",
+      "descriptionEN": "BALÓN PROFESSIONAL is a high quality vinyl fabric made from PVC emulsion resin with a cotton fabric support, which gives high mechanical properties.<br><br>-Thickness: 1.96 +/- 0.13mm<br>-Width: 1.40 m<br>-Weight: 966 +/- 53 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Manufacture of sportballs",
+      "descriptionES": "BALÓN PROFESSIONAL, producto elaborado para la fabricación de balones con una base textíl de algodón que facilita el pegado. <br><br>-Calibre: 1.96 +/- 0.13 mm<br>-Ancho: 1.40 m<br>-Peso: 966 +/- 53 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones: <br>-Fabricación de balones deportivos (futbol, volleyball)",
+      "descriptionGE": "BALÓN PROFESSIONAL ist ein hochwertiges Vinylgewebe aus PVC-Emulsionsharz mit einem Baumwollgewebeträger, der hohe mechanische Eigenschaften bietet.<br> <br> - Dicke: 1,96 +/- 0,13mm<br> - Breite: 1,40 m<br> - Gewicht: 966 +/- 53 g / m²<br> - Standardrollenlänge: 40 m<br><br>Empfohlene Anwendungen<br> - Fertigung von Sportbällen",
+      "certifications": [
+        "Waterproof symbol"
+      ],
+      "postLoad": [
+        {
+          "name": "nuvant_mat",
+          "normalMap": "images/leather_goods/sports_balls/balon_professional/nuvant_mat_normalmap.jpg",
+          "roughnessMap": "images/leather_goods/sports_balls/balon_professional/nuvant_mat_roughnessmap.jpg"
+        }
+      ],
+      "properties": [
+        {
+          "id": "naranja_acido",
+          "name": "Naranja Acido",
+          "materials": [
+            {
+              "name": "nuvant_mat",
+              "map": "images/leather_goods/sports_balls/balon_professional/naranja_acido_nuvant_mat_map.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

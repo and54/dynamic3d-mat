@@ -1,0 +1,255 @@
+{
+  "id": "automotive",
+  "nameEN": "Automotive",
+  "nameES": "Automotriz",
+  "nameGE": "Automobilzubehör",
+  "icon": "ico_automotive",
+  "order": 1,
+  "sections": [
+    {
+      "id": "interior_upholstery",
+      "nameEN": "Interior Upholstery",
+      "nameES": "Tapicería Automotriz",
+      "nameGE": "Innenausstattung",
+      "order": 1
+    }
+  ],
+  "data": [
+    {
+      "id": "platinum",
+      "section_id": "interior_upholstery",
+      "type": "panorama-360",
+      "name": "Platinum",
+      "descriptionEN": "PLATINUM is a high quality vinyl fabrics designed for the automotive upholstery aftermarket, which comply with the strict specifications and demands of the sector.<br><br>-Thickness: 1.21 +/- 0.16 mm<br>-Width: 1.40 m<br>-Weight: 764 +/- 51 g / m²<br>-Standard Roll Length: 45m <br><br>Main Characteristics: <br>-UV light resistant: Protected with special agents and formulated with UV light resistant pigments.<br>-Fire retardant: It complies with this characteristic according to the SAE J 369 standard of June 2013.",
+      "descriptionES": "PLATINUM, producto de alta calidad, diseñado para este mercado, cumpliendo las estrictas especificaciones y exigencias de dicho sector. <br> <br> -Calibre: 1.21 +/- 0.16 mm<br> -Ancho: 1.40 m<br> -Peso: 764 +/- 51 g / m²<br> -Longitud del rollo: 45 m<br> -Resistente a la luz Ultra Violeta (U.V)<br> -Retardancia al fuego: Cumple con la especificación SAE J 369 de junio 2013 / FMVSS 302",
+      "descriptionGE": "PLATINUM ist ein hochwertiges Vinyl für die Sitzausstattung im Automobil-Aftermarket, das strenge Spezifikationen und Ansprüche des Sektors in Bezug auf Qualität, Haltbarkeit und Sicherheit erfüllt.<br> <br> - Dicke: 1,21 +/- 0,16 mm<br> - Breite: 1,40 m<br> - Gewicht: 764 +/- 51 g / m²<br> - Standardrollenlänge: 45 m <br><br>Haupteigenschaften: <br> - UV-Lichtecht: Geschützt durch besondere Agenzien und gefertigt mit UV-beständigen Pigmenten.<br> - Schwer entflammbar: diese Eigenschaft erfüllt das Material laut dem SAE J 369-Standard vom Juni 2013.",
+      "certifications": [
+        "U.V Radiation resistance symbol",
+        "Fire retardant symbol",
+        "Waterproof symbol"
+      ],
+      "properties": [
+        {
+          "id": "ocre",
+          "name": "Ocre"
+        },
+        {
+          "id": "vildella_maure",
+          "name": "Vildella Maure"
+        },
+        {
+          "id": "sileda_zepia",
+          "name": "Sileda Zepia"
+        },
+        {
+          "id": "sileda_carbon",
+          "name": "Sileda Carbon"
+        },
+        {
+          "id": "perf_carbon",
+          "name": "Perf Carbon"
+        },
+        {
+          "id": "sileda_tunez",
+          "name": "Sileda Tunez"
+        },
+        {
+          "id": "perf_tunez",
+          "name": "Perf Tunez"
+        },
+        {
+          "id": "sileda_azabache",
+          "name": "Sileda Azabache"
+        },
+        {
+          "id": "perf_azabache",
+          "name": "Perf Azabache"
+        }
+      ]
+    },
+    {
+      "id": "starplus",
+      "section_id": "interior_upholstery",
+      "type": "panorama-360",
+      "name": "Starplus",
+      "descriptionEN": "STARPLUS is a high quality vinyl fabrics designed for the automotive upholstery aftermarket, which comply with the strict specifications and demands of the sector.<br><br>-Thickness: 1.24 +/- 0.09mm<br>-Width: 1.40 m<br>-Weight: 588 +/- 40 g / m²<br>-Standard Roll Length: 45m <br><br>Main Characteristics: <br>-Fire retardant: It complies with this characteristic according to the SAE J 369 standard of June 2013.",
+      "descriptionES": "STARPLUS, producto de alta calidad diseñado para este mercado, cumpliendo con estrictas especificaciones y exigencias de dicho sector. Esta referencia cuenta con un soporte de elongación en ambos sentidos (longitudinal y transversal), ideal para tapizados con curvaturas exigentes, brindando una excelente hormabilidad. <br> <br> -Calibre: 0.95 +/- 0.09 mm<br> -Ancho: 1.40 m<br> -Peso: 560 +/- 45 g / m²<br> -Longitud del rollo: 42 m<br> -Retardancia al fuego: Cumple con la especificación SAE J 369 de junio 2013 / FMVSS 302",
+      "descriptionGE": "STARPLUS ist ein hochwertiger Vinylstoff für die Sitzausstattung im Automobil-Aftermarket, der strenge Spezifikationen und Ansprüche des Sektors in Bezug auf Qualität, Haltbarkeit und Sicherheit erfüllt.<br> <br> - Dicke: 1,24 +/- 0,09mm<br> - Breite: 1,40 m<br> - Gewicht: 588 +/- 40 g / m²<br> - Standardrollenlänge: 45 m <br><br>Haupteigenschaften: <br> - Schwer entflammbar: diese Eigenschaft erfüllt das Material laut dem SAE J 369-Standard vom Juni 2013.",
+      "certifications": [
+        "Fire retardant symbol",
+        "Waterproof symbol"
+      ],
+      "properties": [
+        {
+          "id": "arena",
+          "name": "Arena"
+        },
+        {
+          "id": "gris_claro",
+          "name": "Gris Claro"
+        },
+        {
+          "id": "carbon",
+          "name": "Carbon"
+        },
+        {
+          "id": "charcoal",
+          "name": "Charcoal"
+        },
+        {
+          "id": "dark_graphite",
+          "name": "Dark Graphite"
+        },
+        {
+          "id": "azabache",
+          "name": "Azabache"
+        }
+      ]
+    },
+    {
+      "id": "malibu",
+      "section_id": "interior_upholstery",
+      "type": "panorama-360",
+      "name": "Malibu",
+      "descriptionEN": "MALIBU is a high quality vinyl fabrics designed for the automotive upholstery aftermarket, which comply with the strict specifications and demands of the sector. Malibu is made from a PVC emulsion resin, with a fabric support of 100% polyester knit that stretch in both directions, allowing an excelent comformability.<br><br>-Thickness: 0.95 +/- 0.09mm<br>-Width: 1.40 m<br>-Weight: 560 +/- 45 g / m²<br>-Standard Roll Length: 42m <br>Main Characteristics: <br>-Fire retardant:It complies with this characteristic according to the SAE J 369 June 2013 / FMVSS 302",
+      "descriptionES": "MALIBÚ, producto de alta calidad diseñado para este mercado, cumpliendo con estrictas especificaciones y exigencias de dicho sector. Esta referencia cuenta con un soporte de elongación en ambos sentidos (longitudinal y transversal), ideal para tapizados con curvaturas exigentes, brindando una excelente hormabilidad. <br> <br> -Calibre: 0.95 +/- 0.09 mm<br> -Ancho: 1.40 m<br> -Peso: 560 +/- 45 g / m²<br> -Longitud del rollo: 42 m<br> -Retardancia al fuego: Cumple con la especificación SAE J 369 de junio 2013 / FMVSS 302",
+      "descriptionGE": "MALIBU ist ein hochwertiger Vinylstoff für die Sitzausstattung im Automobil-Aftermarket, der strenge Spezifikationen und Ansprüche des Sektors in Bezug auf Qualität, Haltbarkeit und Sicherheit erfüllt. MALIBU besteht aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das sich in beide Richtungen dehnt und so hervorragend anpassbar ist.<br>MALIBU ist ein Trendsetter - es ist pflegeleicht und haltbar, hochwertig und attraktiv. <br> <br> - Dicke: 0,95 +/- 0,09mm<br> - Breite: 1,40 m<br> - Gewicht: 560 +/- 45 g / m²<br> - Standardrollenlänge: 42 m <br><br>Haupteigenschaften: <br> - Schwer entflammbar: diese Eigenschaft erfüllt das Material laut SAE J 369 (Juni 2013 / FMVSS 302)",
+      "certifications": [
+        "Fire retardant symbol",
+        "Waterproof symbol"
+      ],
+      "properties": [
+        {
+          "id": "ocre",
+          "name": "Ocre"
+        },
+        {
+          "id": "barro",
+          "name": "Barro"
+        },
+        {
+          "id": "carbon",
+          "name": "Carbon"
+        },
+        {
+          "id": "maure",
+          "name": "Maure"
+        },
+        {
+          "id": "tunez",
+          "name": "Tunez"
+        },
+        {
+          "id": "gris_oscuro",
+          "name": "Gris Oscuro"
+        },
+        {
+          "id": "negro",
+          "name": "Negro"
+        }
+      ]
+    },
+    {
+      "id": "malibu_plus",
+      "section_id": "interior_upholstery",
+      "type": "panorama-360",
+      "name": "Malibu Plus",
+      "descriptionEN": "MALIBU PLUS is a high quality vinyl fabrics designed for the automotive upholstery market, which comply with the strict specifications and demands of the sector. Malibu Plus is made from a PVC emulsion resin, with a fabric support of 100% polyester knit that stretch in both directions, allowing an excelent comformability.<br><br>-Thickness:1.02 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 615 +/- 45 g /m²<br>-Standard Roll Length: 42m <br><br>Main Characteristics: <br>-Fire retardant: It complies with this characteristic according to the  SAE J 369 June 2013 / FMVSS 302",
+      "descriptionES": "MALIBÚ PLUS, producto de alta calidad diseñado para este mercado, cumpliendo con estrictas especificaciones y exigencias de dicho sector. Esta referencia cuenta con un soporte de elongación en ambos sentidos (longitudinal y transversal), ideal para tapizados con curvaturas exigentes, brindando una excelente hormabilidad. <br> <br> -Calibre: 1.02 +/- 0.10 mm<br> -Ancho: 1.40 m<br> -Peso: 615 +/- 45 g / m²<br> -Longitud del rollo: 42 m<br> -Retardancia al fuego: Cumple con la especificación SAE J 369 de junio 2013 / FMVSS 302",
+      "descriptionGE": "MALIBU PLUS ist ein hochwertiger Vinylstoff für die Sitzausstattung im Automobilmarkt, der strenge Spezifikationen und Ansprüche des Sektors in Bezug auf Qualität, Haltbarkeit und Sicherheit erfüllt. MALIBU besteht aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das sich in beide Richtungen dehnt und so hervorragend anpassbar ist.<br>MALIBU PLUS ist ein Trendsetter - es ist pflegeleicht und haltbar, hochwertig und attraktiv. <br> <br> 1,02 +/- 0,10mm<br> - Gewicht: 1,40 m<br> - Gewicht: 615 +/- 45 g / m²<br> - Standardrollenlänge: 42m <br><br>Haupteigenschaften: <br> - Schwer entflammbar: diese Eigenschaft erfüllt das Material laut SAE J 369 (Juni 2013 / FMVSS 302)",
+      "certifications": [
+        "Fire retardant symbol",
+        "Waterproof symbol"
+      ],
+      "properties": [
+        {
+          "id": "negro",
+          "name": "Negro"
+        }
+      ]
+    },
+    {
+      "id": "titanium",
+      "section_id": "interior_upholstery",
+      "type": "panorama-360",
+      "name": "Titanium",
+      "descriptionEN": "TITANIUM is a high quality vinyl fabrics designed for the automotive upholstery aftermarket, which comply with the strict specifications and demands of the sector.<br><br>-Thickness: 1.15 +/- 0.08mm<br>-Width: 1.40 m<br>-Weight: 589 +/- 42 g / m²<br>-Standard Roll Length: 45m <br><br>Main Characteristics: <br>-Fire retardant: It complies with this characteristic according to the SAE J 369 standard of June 2013.",
+      "descriptionES": "TITANIUM, producto de alta calidad diseñado para este mercado, cumpliendo con estrictas especificaciones y exigencias de dicho sector. <br> <br> -Calibre: 1.15 +/- 0.08 mm<br> -Ancho: 1.40 m<br> -Peso: 589 +/- 42 g / m²<br> -Longitud del rollo: 45 m<br> -Retardancia al fuego: Cumple con la especificación SAE J 369 de junio 2013 / FMVSS 302",
+      "descriptionGE": "TITANIUM ist ein hochwertiger Vinylstoff für die Sitzausstattung im Automobil-Aftermarket, der strenge Spezifikationen und Ansprüche des Sektors in Bezug auf Qualität, Haltbarkeit und Sicherheit erfüllt.<br> <br> - Dicke: 1,15 +/- 0,08mm<br> - Breite: 1,40 m<br> - Gewicht: 589 +/- 42 g / m²<br> - Standardrollenlänge: 45 m <br><br>Haupteigenschaften: <br> - Schwer entflammbar: diese Eigenschaft erfüllt das Material laut dem SAE J 369-Standard vom Juni 2013.",
+      "certifications": [
+        "Fire retardant symbol",
+        "Waterproof symbol"
+      ],
+      "properties": [
+        {
+          "id": "ultra_gris_claro",
+          "name": "Ultra Gris Claro"
+        },
+        {
+          "id": "ultra_carbon",
+          "name": "Ultra Carbon"
+        },
+        {
+          "id": "ultra_charcoal",
+          "name": "Ultra Charcoal"
+        },
+        {
+          "id": "ultra_azabache",
+          "name": "Ultra Azabache"
+        },
+        {
+          "id": "variation_charcoal",
+          "name": "Variation Charcoal"
+        },
+        {
+          "id": "austin_charcoal",
+          "name": "Austin Charcoal"
+        },
+        {
+          "id": "variation_carbon",
+          "name": "Variation Carbon"
+        },
+        {
+          "id": "austin_carbon",
+          "name": "Austin Carbon"
+        },
+        {
+          "id": "variation_gris_claro",
+          "name": "Variation Gris Claro"
+        },
+        {
+          "id": "austin_gris_claro",
+          "name": "Austin Gris Claro"
+        },
+        {
+          "id": "variation_marfil",
+          "name": "Variation Marfil"
+        },
+        {
+          "id": "austin_marfil",
+          "name": "Austin Marfil"
+        },
+        {
+          "id": "variation_dark_graphite",
+          "name": "Variation Dark Graphite"
+        },
+        {
+          "id": "austin_dark_graphite",
+          "name": "Austin Dark Graphite"
+        },
+        {
+          "id": "variation_azabache",
+          "name": "Variation Azabache"
+        },
+        {
+          "id": "austin_azabache",
+          "name": "Austin Azabache"
+        },
+        {
+          "id": "ultra_azul_frances",
+          "name": "Ultra Azul Frances"
+        }
+      ]
+    }
+  ]
+}
