@@ -157,7 +157,19 @@
         {
           "name": "nuvant_mat",
           "normalMap": "images/footwear/casual_footwear/prisma/nuvant_mat_normalmap.jpg",
-          "roughnessMap": "images/footwear/casual_footwear/prisma/nuvant_mat_roughnessmap.jpg"
+          "roughnessMap": "images/footwear/casual_footwear/prisma/nuvant_mat_roughnessmap.jpg",
+          "normalMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          },
+          "roughnessMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          }
         }
       ],
       "properties": [
@@ -167,7 +179,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/prisma/miel_nuvant_mat_map.jpg"
+              "map": "images/footwear/casual_footwear/prisma/miel_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -177,7 +195,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/prisma/caramelo_nuvant_mat_map.jpg"
+              "map": "images/footwear/casual_footwear/prisma/caramelo_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -187,7 +211,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/prisma/azul_oscuro_nuvant_mat_map.jpg"
+              "map": "images/footwear/casual_footwear/prisma/azul_oscuro_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -197,7 +227,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/prisma/cafe_nuvant_mat_map.jpg"
+              "map": "images/footwear/casual_footwear/prisma/cafe_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -207,7 +243,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/prisma/tabaco_nuvant_mat_map.jpg"
+              "map": "images/footwear/casual_footwear/prisma/tabaco_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -217,7 +259,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/prisma/negro_nuvant_mat_map.jpg"
+              "map": "images/footwear/casual_footwear/prisma/negro_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         }
@@ -629,16 +677,6 @@
           ]
         },
         {
-          "id": "vinotinto",
-          "name": "VinoTinto",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/jungla/vinotinto_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
           "id": "petroleo",
           "name": "Petroleo",
           "materials": [
@@ -721,16 +759,6 @@
           ]
         },
         {
-          "id": "melaza",
-          "name": "Melaza",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/vienna/melaza_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
           "id": "ron",
           "name": "Ron",
           "materials": [
@@ -767,78 +795,6 @@
             {
               "name": "nuvant_mat",
               "map": "images/footwear/casual_footwear/vienna/negro_nuvant_mat_map.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "infinity",
-      "section_id": "casual_footwear",
-      "type": "viewer-3d",
-      "name": "Infinity",
-      "model": "images/footwear/casual_footwear/model/model.fbx",
-      "descriptionEN": "INFINITY is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m <br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
-      "descriptionES": "INFINITY, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual, como flexión y abrasión.<br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
-      "descriptionGE": "INFINITY ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
-      "certifications": [
-        "Waterproof symbol"
-      ],
-      "postLoad": [
-        {
-          "name": "nuvant_mat",
-          "normalMap": "images/footwear/casual_footwear/infinity/nuvant_mat_normalmap.jpg",
-          "roughnessMap": "images/footwear/casual_footwear/infinity/nuvant_mat_roughnessmap.jpg"
-        }
-      ],
-      "properties": [
-        {
-          "id": "amarillo",
-          "name": "Amarillo",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/infinity/amarillo_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
-          "id": "rostado",
-          "name": "Rostado",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/infinity/rostado_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
-          "id": "azul",
-          "name": "Azul",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/infinity/azul_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
-          "id": "cafe",
-          "name": "Café",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/infinity/cafe_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
-          "id": "negro",
-          "name": "Negro",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/infinity/negro_nuvant_mat_map.jpg"
             }
           ]
         }
@@ -925,16 +881,6 @@
           ]
         },
         {
-          "id": "ceniz_bic",
-          "name": "Ceniz Bic",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/capellada_ante/ceniz_bic_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
           "id": "petroleo_bic",
           "name": "Petroleo Bic",
           "materials": [
@@ -951,58 +897,6 @@
             {
               "name": "nuvant_mat",
               "map": "images/footwear/casual_footwear/capellada_ante/plomo_bic_nuvant_mat_map.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "capellada_ante_tech",
-      "section_id": "casual_footwear",
-      "type": "viewer-3d",
-      "name": "Capellada Ante Tech",
-      "model": "images/footwear/casual_footwear/model/model.fbx",
-      "descriptionEN": "CAPELLADA ANTE TECH is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties.<br><br>-Thickness: 1.82 +/- 0.13mm<br>-Width: 1.40 <br>-Weight: 878 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
-      "descriptionES": "CAPELLADA ANTE TECH, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado casual, como flexión y abrasión.<br><br>-Calibre: 1.82 +/- 0.13 mm<br>-Ancho: 1.40<br>-Peso: 878 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
-      "descriptionGE": "CAPELLADA ANTE TECH ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt.<br> <br> - Dicke: 1,82 +/- 0,13mm<br> - Breite: 1,40 <br> - Gewicht: 878 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
-      "certifications": [
-        "Waterproof symbol"
-      ],
-      "postLoad": [
-        {
-          "name": "nuvant_mat",
-          "normalMap": "images/footwear/casual_footwear/capellada_ante_tech/nuvant_mat_normalmap.jpg",
-          "roughnessMap": "images/footwear/casual_footwear/capellada_ante_tech/nuvant_mat_roughnessmap.jpg"
-        }
-      ],
-      "properties": [
-        {
-          "id": "arena",
-          "name": "Arena",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/capellada_ante_tech/arena_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
-          "id": "oro_bic",
-          "name": "Oro Bic",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/capellada_ante_tech/oro_bic_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
-          "id": "verde_bar_bic",
-          "name": "Verde Bar Bic",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/casual_footwear/capellada_ante_tech/verde_bar_bic_nuvant_mat_map.jpg"
             }
           ]
         }
@@ -1178,7 +1072,19 @@
         {
           "name": "nuvant_mat",
           "normalMap": "images/footwear/sport_footwear/prisma/nuvant_mat_normalmap.jpg",
-          "roughnessMap": "images/footwear/sport_footwear/prisma/nuvant_mat_roughnessmap.jpg"
+          "roughnessMap": "images/footwear/sport_footwear/prisma/nuvant_mat_roughnessmap.jpg",
+          "normalMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          },
+          "roughnessMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          }
         }
       ],
       "properties": [
@@ -1188,7 +1094,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/prisma/miel_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/prisma/miel_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -1198,7 +1110,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/prisma/caramelo_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/prisma/caramelo_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -1208,7 +1126,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/prisma/azul_oscuro_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/prisma/azul_oscuro_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -1218,7 +1142,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/prisma/cafe_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/prisma/cafe_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -1228,7 +1158,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/prisma/tabaco_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/prisma/tabaco_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -1238,7 +1174,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/prisma/negro_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/prisma/negro_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         }
@@ -1655,7 +1597,19 @@
         {
           "name": "nuvant_mat",
           "normalMap": "images/footwear/sport_footwear/sportech/nuvant_mat_normalmap.jpg",
-          "roughnessMap": "images/footwear/sport_footwear/sportech/nuvant_mat_roughnessmap.jpg"
+          "roughnessMap": "images/footwear/sport_footwear/sportech/nuvant_mat_roughnessmap.jpg",
+          "normalMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          },
+          "roughnessMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          }
         }
       ],
       "properties": [
@@ -1665,7 +1619,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/sportech/blanco_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/sportech/blanco_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -1675,7 +1635,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/sportech/cafe_colonial_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/sportech/cafe_colonial_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -1685,7 +1651,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/sportech/negro_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/sportech/negro_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         }
@@ -2210,48 +2182,6 @@
       ]
     },
     {
-      "id": "sport_kid",
-      "section_id": "sport_footwear",
-      "type": "viewer-3d",
-      "name": "Sport Kid",
-      "model": "images/footwear/sport_footwear/model/model.fbx",
-      "descriptionEN": "SPORT KID is a high quality vinyl fabric made from PVC emulsion resin and 100% polyester knitted fabric support, which gives high mechanical properties. <br><br>-Thickness: 1.65 +/- 0.10mm<br>-Width: 1.40 m<br>-Weight: 853 +/- 54 g / m²<br>-Standard Roll Length: 40m <br><br>Recommended Applications<br>-Footwear<br>-Leathergoods",
-      "descriptionES": "SPORT KID, producto diseñado para la industria del calzado. Cumple con las especificaciones requeridas por el segmento en el sector de calzado deportivo, como flexión y abrasión. <br><br>-Calibre: 1.65 +/- 0.10 mm<br>-Ancho: 1.40 m<br>-Peso: 853 +/- 54 g / m²<br>-Longitud del rollo: 40 m<br><br><br>Aplicaciones:<br>-Calzado<br>-Marroquinería",
-      "descriptionGE": "SPORT KID ist ein hochwertiges Vinyl aus Emulsions-PVC mit einem aus 100%igem Polyester gestrickten Trägergewebe, das für ausgezeichnete mechanische Eigenschaften sorgt. <br> <br> - Dicke: 1,65 +/- 0,10mm<br> - Breite: 1,40 m<br> - Gewicht: 853 +/- 54 g / m²<br> - Standardrollenlänge: 40 m<br><br> Empfohlene Anwendungen:<br> - Schuhe<br> - Lederwaren",
-      "certifications": [
-        "Waterproof symbol"
-      ],
-      "postLoad": [
-        {
-          "name": "nuvant_mat",
-          "normalMap": "images/footwear/sport_footwear/sport_kid/nuvant_mat_normalmap.jpg",
-          "roughnessMap": "images/footwear/sport_footwear/sport_kid/nuvant_mat_roughnessmap.jpg"
-        }
-      ],
-      "properties": [
-        {
-          "id": "blanco",
-          "name": "Blanco",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/sport_kid/blanco_nuvant_mat_map.jpg"
-            }
-          ]
-        },
-        {
-          "id": "negro",
-          "name": "Negro",
-          "materials": [
-            {
-              "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/sport_kid/negro_nuvant_mat_map.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "puntera_sport_rubin",
       "section_id": "sport_footwear",
       "type": "viewer-3d",
@@ -2309,7 +2239,19 @@
         {
           "name": "nuvant_mat",
           "normalMap": "images/footwear/sport_footwear/zurich/nuvant_mat_normalmap.jpg",
-          "roughnessMap": "images/footwear/sport_footwear/zurich/nuvant_mat_roughnessmap.jpg"
+          "roughnessMap": "images/footwear/sport_footwear/zurich/nuvant_mat_roughnessmap.jpg",
+          "roughnessMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          },
+          "normalMapProps": {
+            "repeat": [
+              10,
+              10
+            ]
+          }
         }
       ],
       "properties": [
@@ -2319,7 +2261,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/negro_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/negro_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2329,7 +2277,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/neon_fluor_pink_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/neon_fluor_pink_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2339,7 +2293,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/amarillo_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/amarillo_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2349,7 +2309,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/gold_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/gold_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2359,7 +2325,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/blanco_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/blanco_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2369,7 +2341,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/mora_light_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/mora_light_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2379,7 +2357,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/turqueza_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/turqueza_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2389,7 +2373,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/aguamarina_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/aguamarina_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2399,7 +2389,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/verde_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/verde_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2409,7 +2405,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/rosa_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/rosa_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2419,7 +2421,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/rojo_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/rojo_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2429,7 +2437,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/azul_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/azul_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         },
@@ -2439,7 +2453,13 @@
           "materials": [
             {
               "name": "nuvant_mat",
-              "map": "images/footwear/sport_footwear/zurich/gris_nube_nuvant_mat_map.jpg"
+              "map": "images/footwear/sport_footwear/zurich/gris_nube_nuvant_mat_map.jpg",
+              "mapProps": {
+                "repeat": [
+                  10,
+                  10
+                ]
+              }
             }
           ]
         }
