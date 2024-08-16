@@ -12,7 +12,7 @@
     "start": {
       "name": "start",
       "command": "npm run start",
-      "runAtStart": false
+      "runAtStart": true
     },
     "swatches": {
       "name": "swatches",
@@ -32,7 +32,7 @@
     "dev": {
       "name": "dev",
       "command": "npm run dev",
-      "runAtStart": true
+      "runAtStart": false
     },
     "translate": {
       "name": "translate",
