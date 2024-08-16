@@ -19,6 +19,7 @@
     "csv-parser": "^2.3.3"
   },
   "devDependencies": {
+    "serve": "^14.2.3",
     "watchify": "^3.11.1"
   }
 }
