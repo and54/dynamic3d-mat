@@ -8,7 +8,7 @@
     "swatches": "node src/utils/create_swatches",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify src/js/src/index.js -o src/js/bundle.js",
-    "dev": "watchify src/js/src/index.js -o src/js/bundle.js",
+    "watchify": "watchify src/js/src/index.js -o src/js/bundle.js",
     "translate": "node src/js/custom/translations/parse_translations.js && npm run build"
   },
   "keywords": [],
