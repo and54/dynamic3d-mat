@@ -29,6 +29,7 @@ const init3d = async (iniPath) => {
   const category = await json[name];
 
   if (name && category) createDropDown(json, name);
+  else window.location = window.location + '#footwear';
 }
 
 const initLoader = async (path) => {

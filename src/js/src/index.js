@@ -59,7 +59,7 @@ const translateContactUs = (page, language, country, selectedRegion = null) => {
         officeAddressSec = officeAddressSec && `${officeAddressSec} ${officeStr}` || officeStr;
     });
 
-    if(!selectedRegion) {
+    if (!selectedRegion) {
         page[language] && Object.keys(page[language]).forEach((el) => {
             const officelabelStr = `<option value="${el}">${el}</option>`;
             officeLabelsSec = officeLabelsSec && `${officeLabelsSec} ${officelabelStr}` || officelabelStr;
@@ -83,7 +83,7 @@ const translateContactUs = (page, language, country, selectedRegion = null) => {
         let officeNumberStr = `<div class="feature-box-info contact-number-sec">
             <span class="d-block font-weight-medium contact-number-head">${name}</span>
             ${numberStrSec}
-        </div>` 
+        </div>`
         officeNumberSec = officeNumberSec && `${officeNumberSec} ${officeNumberStr}` || officeNumberStr;
     });
     // Changing the phone number based on the language selected
@@ -114,8 +114,6 @@ const translateAll = (page, language, country, region = null) => {
     translateFooter(language, country, region)
 }
 
-
-
 (function ($) {
 
     const page_match = {
@@ -125,7 +123,7 @@ const translateAll = (page, language, country, region = null) => {
         'resources': resources,
         'contact': contact_us,
         'certifications': certifications,
-        '/':home_page
+        '/': home_page
     }
 
     window.initMap = initMap((country) => {
@@ -139,7 +137,7 @@ const translateAll = (page, language, country, region = null) => {
         let translated_page = page && page[1];
 
         $('#header-load').load('../html/header.html', () => {
-            $('#lang-es').click(function() {
+            $('#lang-es').click(function () {
                 setLanguageInHeader(this);
                 const region = localStorage.getItem('nuvant_region') || ERegions.USA;
                 translateAll(translated_page, ELanguages.Spanish, country, region);
@@ -149,7 +147,7 @@ const translateAll = (page, language, country, region = null) => {
                 $(this).addClass("lang-selected");
                 $(".form-error-label").hide();
             });
-            $('#lang-en').click(function() {
+            $('#lang-en').click(function () {
                 setLanguageInHeader(this);
                 const region = localStorage.getItem('nuvant_region') || ERegions.USA;
                 translateAll(translated_page, ELanguages.English, country, region);
@@ -159,7 +157,7 @@ const translateAll = (page, language, country, region = null) => {
                 $(this).addClass("lang-selected");
                 $(".form-error-label").hide();
             });
-            $('#lang-de').click(function() {
+            $('#lang-de').click(function () {
                 setLanguageInHeader(this);
                 const region = localStorage.getItem('nuvant_region') || ERegions.USA;
                 $(".lang-indentifier").removeClass("lang-selected");
@@ -169,9 +167,9 @@ const translateAll = (page, language, country, region = null) => {
                 setCookie(ELanguages.German);
                 $(".form-error-label").hide();
             });
-            
-            $('.region-identifier').click(function() {
-                setRegionInHeader(this) 
+
+            $('.region-identifier').click(function () {
+                setRegionInHeader(this)
                 const regionId = $(this).attr('id');
                 const lng = getCookie();
                 const region = ERegionIdMapping[regionId];
@@ -182,7 +180,7 @@ const translateAll = (page, language, country, region = null) => {
                 $(".form-error-label").hide();
             });
 
-            let selectedLang =  localStorage.getItem('NUVANT_LANG');
+            let selectedLang = localStorage.getItem('NUVANT_LANG');
             let selectedRegion = localStorage.getItem('nuvant_region');
             for (const [key, value] of Object.entries(ELanguages)) {
                 if (language === value) {
@@ -199,24 +197,20 @@ const translateAll = (page, language, country, region = null) => {
 }).apply(this, [jQuery]);
 
 function setLanguageInHeader(Obj, selected = null) {
-    if(Obj || selected) {
+    if (Obj || selected) {
         const langText = selected || $(Obj).text();
         $('.language-header-text').text(langText);
     }
 }
 
 function setRegionInHeader(Obj, selected = null) {
-    if(Obj || selected) {
+    if (Obj || selected) {
         const langText = selected || $(Obj).text();
         $('.global-header-text').text(langText);
     }
 }
-function validateEmail(email) {
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(String(email).toLowerCase());
-}
 
-$(document).on('change',"#location", function() {
+$(document).on('change', "#location", function () {
     const language = getLanguage();
     const country = localStorage.getItem('nuvant_country');
     const location = contact_us.locations;
@@ -234,85 +228,9 @@ function getLanguage() {
     return language;
 }
 
-function findCommonElement(arr1, arr2) { 
-    return arr1.some(item => arr2.includes(item)) 
-} 
+function findCommonElement(arr1, arr2) {
+    return arr1.some(item => arr2.includes(item))
+}
 
-jQuery(function() { 
-
-    $(".contact-form-input").on('keyup', function(){
-        $(this).next('.form-error-label').hide();
-    });
-
-    let errMsg;
-    $.getJSON("constants/message.json", function(json) {
-        errMsg = json;
-    });
-    $('#form-submit-id').on('click', function() {
-        const forData = {
-            email: $('#email').val(),
-            name: $('#name').val(),
-            subject: $('#subject').val(),
-            phone: $('#phone').val(),
-            message: $('#message').val(),
-        }   
-        const lang = getCookie() || 'en';
-        let hasErr = false;        
-        for (const [key, value] of Object.entries(forData)) {
-            const elRule = errMsg[lang] && errMsg[lang][key];
-            if(!value && elRule.isRequired) {
-                const msg = elRule['isRequired'].text || 'Required';
-                $("#error-"+key).text(msg);
-                $("#error-"+key).show();
-                hasErr = true;
-            } 
-
-            if(value && elRule.isEmail) {
-                const isValid = validateEmail(value);
-                if(!validateEmail(value)) {
-                    const msg = elRule['isEmail'].text;
-                    $("#error-"+key).text(msg);
-                    $("#error-"+key).show();
-                    hasErr = true;
-                }
-            }
-        }
-        
-        if(!hasErr) {
-            $(".form-error-label").hide();
-            $.ajax({
-                type: 'POST',
-                url: 'contact.php',
-                data: forData,
-                dataType: 'json',
-                contentType: 'application/json; charset=utf-8',
-                success: function (res) {
-                    if(res.status) {
-                        $("#form-success").text(res.message);
-                        $( "#form-success" ).show();
-                        setTimeout(function() {
-                            $( "#form-success" ).hide();
-                        }, 10000);
-                        for (const [key, value] of Object.entries(forData)) {
-                            $("#"+key).val('');
-                        }
-                    } else {
-                        $("#form-error").text(res.message);
-                        $( "#form-error" ).show();
-                        setTimeout(function() {
-                            $( "#form-error" ).hide();
-                        }, 10000);
-                    }
-                    return res;
-                },
-                error: function(jqXHR, exception) {
-                    $( "#form-error" ).show();
-                    setTimeout(function() {
-                        $( "#form-error" ).hide();
-                    }, 10000);
-                    return 'Error';
-                }
-              });
-        }
-    });
+jQuery(function () {
 });
