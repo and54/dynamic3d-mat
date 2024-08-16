@@ -13,31 +13,6 @@
       "name": "start",
       "command": "npm run start",
       "runAtStart": true
-    },
-    "swatches": {
-      "name": "swatches",
-      "command": "npm run swatches",
-      "runAtStart": false
-    },
-    "test": {
-      "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
-    },
-    "build": {
-      "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
-    },
-    "dev": {
-      "name": "dev",
-      "command": "npm run dev",
-      "runAtStart": false
-    },
-    "translate": {
-      "name": "translate",
-      "command": "npm run translate",
-      "runAtStart": false
     }
   }
 }
